@@ -17,6 +17,7 @@
       <span class="emoji">💪</span> MuscleLove Games <span class="emoji">💪</span>
     </h1>
     <p class="hero-subtitle">筋肉美女と遊ぶミニゲーム集</p>
+    <p class="hero-subtitle-en">Mini Game Collection with Muscle Girls</p>
   </header>
 
   <!-- Games Grid (JSで自動生成) -->
@@ -29,13 +30,13 @@
     <div class="footer-inner">
       <a href="https://www.patreon.com/cw/MuscleLove" target="_blank" rel="noopener noreferrer" class="patreon-btn">
         <svg class="patreon-icon" viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M14.82 2.41c3.96 0 7.18 3.24 7.18 7.21 0 3.96-3.22 7.18-7.18 7.18-3.97 0-7.21-3.22-7.21-7.18 0-3.97 3.24-7.21 7.21-7.21M2 21.6h3.5V2.41H2V21.6z"/></svg>
-        Patreonで応援する
+        <span>Patreonで応援する <span class="btn-en">/ Support on Patreon</span></span>
       </a>
       <div class="footer-social">
         <span class="footer-hashtag">#MuscleLove</span>
         <a href="https://twitter.com/intent/tweet?text=%F0%9F%92%AA%20MuscleLove%20Games%20-%20%E7%AD%8B%E8%82%89%E7%BE%8E%E5%A5%B3%E3%81%A8%E9%81%8A%E3%81%B6%E3%83%9F%E3%83%8B%E3%82%B2%E3%83%BC%E3%83%A0%E9%9B%86%20%23MuscleLove&url=https%3A%2F%2Fmusclelove-games.vercel.app" target="_blank" rel="noopener noreferrer" class="twitter-btn" aria-label="Xでシェア">
           <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
-          シェア
+          シェア <span class="btn-en">/ Share</span>
         </a>
       </div>
       <p class="footer-copy">&copy; 2026 MuscleLove</p>
@@ -47,12 +48,12 @@
     // ゲーム追加はここに1行足すだけ！
     // ============================================================
     var GAMES = [
-      { title: '筋肉パズル',       genre: 'Match-3 Puzzle', url: 'https://muscle-puzzle-game.vercel.app',   img: 'images/img1.png', desc: '筋肉美女のマッチ3パズル！3つ揃えて消せ！' },
-      { title: '筋肉ガチャ',       genre: 'Gacha',          url: 'https://muscle-gacha.vercel.app',         img: 'images/img2.png', desc: 'SSRを引け！筋肉美女ガチャ！レアキャラをコンプしよう' },
-      { title: '筋肉神経衰弱',     genre: 'Memory',         url: 'https://muscle-memory-theta.vercel.app',  img: 'images/img3.png', desc: 'カードをめくってペアを見つけろ！記憶力×筋肉美女' },
-      { title: '筋肉スライドパズル', genre: 'Slide Puzzle',   url: 'https://muscle-slide.vercel.app',         img: 'images/img4.png', desc: 'バラバラの画像をスライドして完成させよう！' },
+      { title: '筋肉パズル',       genre: 'Match-3 Puzzle', url: 'https://muscle-puzzle-game.vercel.app',   img: 'images/img1.png', desc_ja: '筋肉美女のマッチ3パズル！3つ揃えて消せ！', desc_en: 'Match-3 puzzle with muscle girls! Line up 3 to clear!' },
+      { title: '筋肉ガチャ',       genre: 'Gacha',          url: 'https://muscle-gacha.vercel.app',         img: 'images/img2.png', desc_ja: 'SSRを引け！筋肉美女ガチャ！レアキャラをコンプしよう', desc_en: 'Pull for SSR! Muscle girl gacha! Collect all rare characters!' },
+      { title: '筋肉神経衰弱',     genre: 'Memory',         url: 'https://muscle-memory-theta.vercel.app',  img: 'images/img3.png', desc_ja: 'カードをめくってペアを見つけろ！記憶力×筋肉美女', desc_en: 'Flip cards and find pairs! Memory game meets muscle girls!' },
+      { title: '筋肉スライドパズル', genre: 'Slide Puzzle',   url: 'https://muscle-slide.vercel.app',         img: 'images/img4.png', desc_ja: 'バラバラの画像をスライドして完成させよう！', desc_en: 'Slide the tiles to complete the image!' },
       // 新しいゲームはここに追加 ↓
-      // { title: 'ゲーム名', genre: 'ジャンル', url: 'https://xxx.vercel.app', img: 'images/imgX.png', desc: '説明文' },
+      // { title: 'ゲーム名', genre: 'ジャンル', url: 'https://xxx.vercel.app', img: 'images/imgX.png', desc_ja: '説明文', desc_en: 'Description' },
     ];
 
     (function() {
@@ -68,8 +69,8 @@
           '<div class="card-body">' +
             '<h2 class="card-title">' + g.title + '</h2>' +
             '<span class="card-genre">' + g.genre + '</span>' +
-            '<p class="card-desc">' + g.desc + '</p>' +
-            '<span class="card-btn">遊ぶ！</span>' +
+            '<p class="card-desc">' + g.desc_ja + '<span class="card-desc-en">' + g.desc_en + '</span></p>' +
+            '<span class="card-btn">遊ぶ！ <span class="btn-en">/ Play!</span></span>' +
           '</div>';
         grid.appendChild(a);
       });

@@ -77,6 +77,14 @@ body {
   letter-spacing: 1px;
 }
 
+.hero-subtitle-en {
+  margin-top: 4px;
+  font-size: clamp(.78rem, 2.2vw, 1rem);
+  color: #777;
+  letter-spacing: .5px;
+  font-style: italic;
+}
+
 /* ---- Games Section ---- */
 .games-section {
   position: relative;
@@ -271,4 +279,20 @@ body {
 .footer-copy {
   font-size: .78rem;
   color: #555;
+}
+
+/* ---- Bilingual English sub-text ---- */
+.card-desc-en {
+  display: block;
+  margin-top: 4px;
+  font-size: .8rem;
+  color: #777;
+  font-style: italic;
+  line-height: 1.4;
+}
+
+.btn-en {
+  font-size: .8em;
+  color: rgba(255, 255, 255, .65);
+  font-weight: 500;
 }
