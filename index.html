@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MuscleLove Games - 筋肉美女と遊ぶミニゲーム集</title>
+  <meta name="description" content="MuscleLove Games - 筋肉美女と遊ぶミニゲーム集。パズル、ガチャ、神経衰弱、スライドパズルで遊ぼう！">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Floating muscle emoji background -->
+  <div class="bg-particles" id="particles" aria-hidden="true"></div>
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <h1 class="hero-title">
+      <span class="emoji">💪</span> MuscleLove Games <span class="emoji">💪</span>
+    </h1>
+    <p class="hero-subtitle">筋肉美女と遊ぶミニゲーム集</p>
+  </header>
+
+  <!-- Games Grid -->
+  <main class="games-section">
+    <div class="games-grid">
+
+      <a href="https://muscle-puzzle-game.vercel.app" target="_blank" rel="noopener noreferrer" class="game-card">
+        <div class="card-image">
+          <img src="images/img1.png" alt="筋肉パズル" loading="lazy">
+        </div>
+        <div class="card-body">
+          <h2 class="card-title">筋肉パズル</h2>
+          <span class="card-genre">Match-3 Puzzle</span>
+          <p class="card-desc">筋肉美女のマッチ3パズル！3つ揃えて消せ！</p>
+          <span class="card-btn">遊ぶ！</span>
+        </div>
+      </a>
+
+      <a href="https://muscle-gacha.vercel.app" target="_blank" rel="noopener noreferrer" class="game-card">
+        <div class="card-image">
+          <img src="images/img2.png" alt="筋肉ガチャ" loading="lazy">
+        </div>
+        <div class="card-body">
+          <h2 class="card-title">筋肉ガチャ</h2>
+          <span class="card-genre">Gacha</span>
+          <p class="card-desc">SSRを引け！筋肉美女ガチャ！レアキャラをコンプしよう</p>
+          <span class="card-btn">遊ぶ！</span>
+        </div>
+      </a>
+
+      <a href="https://muscle-memory-theta.vercel.app" target="_blank" rel="noopener noreferrer" class="game-card">
+        <div class="card-image">
+          <img src="images/img3.png" alt="筋肉神経衰弱" loading="lazy">
+        </div>
+        <div class="card-body">
+          <h2 class="card-title">筋肉神経衰弱</h2>
+          <span class="card-genre">Memory</span>
+          <p class="card-desc">カードをめくってペアを見つけろ！記憶力×筋肉美女</p>
+          <span class="card-btn">遊ぶ！</span>
+        </div>
+      </a>
+
+      <a href="https://muscle-slide.vercel.app" target="_blank" rel="noopener noreferrer" class="game-card">
+        <div class="card-image">
+          <img src="images/img4.png" alt="筋肉スライドパズル" loading="lazy">
+        </div>
+        <div class="card-body">
+          <h2 class="card-title">筋肉スライドパズル</h2>
+          <span class="card-genre">Slide Puzzle</span>
+          <p class="card-desc">バラバラの画像をスライドして完成させよう！</p>
+          <span class="card-btn">遊ぶ！</span>
+        </div>
+      </a>
+
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <a href="https://www.patreon.com/cw/MuscleLove" target="_blank" rel="noopener noreferrer" class="patreon-btn">
+        <svg class="patreon-icon" viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M14.82 2.41c3.96 0 7.18 3.24 7.18 7.21 0 3.96-3.22 7.18-7.18 7.18-3.97 0-7.21-3.22-7.21-7.18 0-3.97 3.24-7.21 7.21-7.21M2 21.6h3.5V2.41H2V21.6z"/></svg>
+        Patreonで応援する
+      </a>
+      <div class="footer-social">
+        <span class="footer-hashtag">#MuscleLove</span>
+        <a href="https://twitter.com/intent/tweet?text=%F0%9F%92%AA%20MuscleLove%20Games%20-%20%E7%AD%8B%E8%82%89%E7%BE%8E%E5%A5%B3%E3%81%A8%E9%81%8A%E3%81%B6%E3%83%9F%E3%83%8B%E3%82%B2%E3%83%BC%E3%83%A0%E9%9B%86%20%23MuscleLove&url=https%3A%2F%2Fmusclelove-games.vercel.app" target="_blank" rel="noopener noreferrer" class="twitter-btn" aria-label="Xでシェア">
+          <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+          シェア
+        </a>
+      </div>
+      <p class="footer-copy">&copy; 2026 MuscleLove</p>
+    </div>
+  </footer>
+
+  <script>
+    // Floating muscle emoji particles
+    (function() {
+      var container = document.getElementById('particles');
+      var emojis = ['\uD83D\uDCAA', '\uD83D\uDD25', '\u2B50', '\uD83C\uDFC6', '\u26A1'];
+      var count = 15;
+      for (var i = 0; i < count; i++) {
+        var span = document.createElement('span');
+        span.className = 'particle';
+        span.textContent = emojis[i % emojis.length];
+        span.style.left = Math.random() * 100 + '%';
+        span.style.animationDelay = (Math.random() * 12) + 's';
+        span.style.animationDuration = (10 + Math.random() * 10) + 's';
+        span.style.fontSize = (14 + Math.random() * 18) + 'px';
+        span.style.opacity = 0.15 + Math.random() * 0.15;
+        container.appendChild(span);
+      }
+    })();
+  </script>
+</body>
+</html>
