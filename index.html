@@ -19,59 +19,9 @@
     <p class="hero-subtitle">筋肉美女と遊ぶミニゲーム集</p>
   </header>
 
-  <!-- Games Grid -->
+  <!-- Games Grid (JSで自動生成) -->
   <main class="games-section">
-    <div class="games-grid">
-
-      <a href="https://muscle-puzzle-game.vercel.app" target="_blank" rel="noopener noreferrer" class="game-card">
-        <div class="card-image">
-          <img src="images/img1.png" alt="筋肉パズル" loading="lazy">
-        </div>
-        <div class="card-body">
-          <h2 class="card-title">筋肉パズル</h2>
-          <span class="card-genre">Match-3 Puzzle</span>
-          <p class="card-desc">筋肉美女のマッチ3パズル！3つ揃えて消せ！</p>
-          <span class="card-btn">遊ぶ！</span>
-        </div>
-      </a>
-
-      <a href="https://muscle-gacha.vercel.app" target="_blank" rel="noopener noreferrer" class="game-card">
-        <div class="card-image">
-          <img src="images/img2.png" alt="筋肉ガチャ" loading="lazy">
-        </div>
-        <div class="card-body">
-          <h2 class="card-title">筋肉ガチャ</h2>
-          <span class="card-genre">Gacha</span>
-          <p class="card-desc">SSRを引け！筋肉美女ガチャ！レアキャラをコンプしよう</p>
-          <span class="card-btn">遊ぶ！</span>
-        </div>
-      </a>
-
-      <a href="https://muscle-memory-theta.vercel.app" target="_blank" rel="noopener noreferrer" class="game-card">
-        <div class="card-image">
-          <img src="images/img3.png" alt="筋肉神経衰弱" loading="lazy">
-        </div>
-        <div class="card-body">
-          <h2 class="card-title">筋肉神経衰弱</h2>
-          <span class="card-genre">Memory</span>
-          <p class="card-desc">カードをめくってペアを見つけろ！記憶力×筋肉美女</p>
-          <span class="card-btn">遊ぶ！</span>
-        </div>
-      </a>
-
-      <a href="https://muscle-slide.vercel.app" target="_blank" rel="noopener noreferrer" class="game-card">
-        <div class="card-image">
-          <img src="images/img4.png" alt="筋肉スライドパズル" loading="lazy">
-        </div>
-        <div class="card-body">
-          <h2 class="card-title">筋肉スライドパズル</h2>
-          <span class="card-genre">Slide Puzzle</span>
-          <p class="card-desc">バラバラの画像をスライドして完成させよう！</p>
-          <span class="card-btn">遊ぶ！</span>
-        </div>
-      </a>
-
-    </div>
+    <div class="games-grid" id="games-grid"></div>
   </main>
 
   <!-- Footer -->
@@ -93,6 +43,38 @@
   </footer>
 
   <script>
+    // ============================================================
+    // ゲーム追加はここに1行足すだけ！
+    // ============================================================
+    var GAMES = [
+      { title: '筋肉パズル',       genre: 'Match-3 Puzzle', url: 'https://muscle-puzzle-game.vercel.app',   img: 'images/img1.png', desc: '筋肉美女のマッチ3パズル！3つ揃えて消せ！' },
+      { title: '筋肉ガチャ',       genre: 'Gacha',          url: 'https://muscle-gacha.vercel.app',         img: 'images/img2.png', desc: 'SSRを引け！筋肉美女ガチャ！レアキャラをコンプしよう' },
+      { title: '筋肉神経衰弱',     genre: 'Memory',         url: 'https://muscle-memory-theta.vercel.app',  img: 'images/img3.png', desc: 'カードをめくってペアを見つけろ！記憶力×筋肉美女' },
+      { title: '筋肉スライドパズル', genre: 'Slide Puzzle',   url: 'https://muscle-slide.vercel.app',         img: 'images/img4.png', desc: 'バラバラの画像をスライドして完成させよう！' },
+      // 新しいゲームはここに追加 ↓
+      // { title: 'ゲーム名', genre: 'ジャンル', url: 'https://xxx.vercel.app', img: 'images/imgX.png', desc: '説明文' },
+    ];
+
+    (function() {
+      var grid = document.getElementById('games-grid');
+      GAMES.forEach(function(g) {
+        var a = document.createElement('a');
+        a.href = g.url;
+        a.target = '_blank';
+        a.rel = 'noopener noreferrer';
+        a.className = 'game-card';
+        a.innerHTML =
+          '<div class="card-image"><img src="' + g.img + '" alt="' + g.title + '" loading="lazy"></div>' +
+          '<div class="card-body">' +
+            '<h2 class="card-title">' + g.title + '</h2>' +
+            '<span class="card-genre">' + g.genre + '</span>' +
+            '<p class="card-desc">' + g.desc + '</p>' +
+            '<span class="card-btn">遊ぶ！</span>' +
+          '</div>';
+        grid.appendChild(a);
+      });
+    })();
+
     // Floating muscle emoji particles
     (function() {
       var container = document.getElementById('particles');
