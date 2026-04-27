@@ -1,0 +1,42 @@
+# MuscleLove Games Hub
+
+> 筋肉美女と遊ぶミニゲーム集。25種類のブラウザミニゲーム(パズル/ガチャ/タイピング/リズム他)を集めたハブサイト。
+
+Site: https://musclelove-777.github.io/musclelove-games/
+Operator: MuscleLove (X: @MuscleGirlLove7 / Patreon: https://www.patreon.com/cw/MuscleLove)
+Language: ja, en
+License: All rights reserved
+
+## Games
+
+- [筋肉パズル (Match-3 Puzzle)](https://muscle-puzzle-game.vercel.app): 筋肉美女のマッチ3パズル！3つ揃えて消せ！ / Match-3 puzzle with muscle girls! Line up 3 to clear!
+- [筋肉ガチャ (Gacha)](https://muscle-gacha.vercel.app): SSRを引け！筋肉美女ガチャ！レアキャラをコンプしよう / Pull for SSR! Muscle girl gacha! Collect all rare characters!
+- [筋肉神経衰弱 (Memory)](https://muscle-memory-theta.vercel.app): カードをめくってペアを見つけろ！記憶力×筋肉美女 / Flip cards and find pairs! Memory game meets muscle girls!
+- [筋肉スライドパズル (Slide Puzzle)](https://muscle-slide.vercel.app): バラバラの画像をスライドして完成させよう！ / Slide the tiles to complete the image!
+- [筋肉タイピング (Typing)](https://muscle-typing.vercel.app): 筋トレ用語を高速タイピング！WPMを競え！ / Speed-type fitness terms! Compete for the best WPM!
+- [筋肉クイズ (Quiz)](https://muscle-quiz.vercel.app): 筋肉の知識を試せ！全問正解で筋肉博士認定 / Test your muscle knowledge! Get certified as Muscle Master!
+- [筋肉ジグソー (Jigsaw)](https://muscle-jigsaw.vercel.app): ドラッグ＆ドロップでジグソーパズルを完成させよう！ / Drag & drop to complete the jigsaw puzzle!
+- [筋肉おみくじ (Fortune)](https://muscle-omikuji.vercel.app): 毎日1回！今日の筋肉運を占おう / Once a day! Draw your daily muscle fortune!
+- [筋肉相性診断 (Personality)](https://muscle-shindan.vercel.app): 5つの質問であなたの筋肉タイプを診断！ / 5 questions to find your muscle personality type!
+- [筋肉リアクション (Reaction)](https://muscle-reaction.vercel.app): 画像が出たら即タップ！反射神経テスト / Tap when the image appears! Test your reflexes!
+- [筋肉キャッチ (Catch)](https://muscle-catch.vercel.app): 落ちてくる筋肉美女をキャッチ！ジャンクフードは避けろ / Catch falling muscle girls! Avoid junk food!
+- [筋肉ランナー (Runner)](https://muscle-runner.vercel.app): ダンベルを飛び越えて走れ！無限ランナー / Jump over dumbbells! Endless runner!
+- [筋肉シューティング (Shooter)](https://muscle-shooter.vercel.app): ポップアップするターゲットを撃て！命中率を競え / Shoot pop-up targets! Compete for accuracy!
+- [筋肉ティアリスト (Tier List)](https://muscle-tierlist.vercel.app): S〜Dランクに分類！俺のティアリストを作ろう / Rank S to D! Create your own tier list!
+- [筋肉ビフォーアフター (Before-After)](https://muscle-beforeafter.vercel.app): スライダーで筋トレ前後を比較！この変化ヤバい / Slide to compare before & after! Amazing transformation!
+- [筋肉バトル (VS Vote)](https://muscle-vs.vercel.app): 2枚の画像、どっちが好き？投票バトル！ / Two images - which do you prefer? Vote battle!
+- [筋肉2048 (2048 Puzzle)](https://muscle-2048.vercel.app): タイルを合体させてLEGENDを目指せ！中毒性MAX / Merge tiles to reach LEGEND! Super addictive!
+- [筋肉フリック (Swipe)](https://muscle-flick.vercel.app): Tinder風にスワイプ！推しコレクションを作ろう / Tinder-style swipe! Build your favorites collection!
+- [筋肉タワー (Tower Stack)](https://muscle-tower.vercel.app): タイミングよくタップしてブロックを積め！ / Tap to stack blocks! How high can you go?
+- [筋肉カレンダー (Daily)](https://muscle-calendar.vercel.app): 毎日変わる画像＆筋トレメニュー！日めくりカレンダー / Daily image & workout menu! Muscle calendar!
+- [筋肉スネーク (Snake)](https://muscle-snake.vercel.app): プロテインを食べて成長！クラシックスネークゲーム / Eat protein and grow! Classic snake game!
+- [筋肉ブロック崩し (Breakout)](https://muscle-breakout.vercel.app): ブロックを全部壊して隠された画像を解放せよ！ / Break all bricks to reveal the hidden image!
+- [筋肉ルーレット (Roulette)](https://muscle-roulette.vercel.app): ルーレットを回して筋トレチャレンジをゲット！ / Spin the wheel and get a workout challenge!
+- [筋肉リズム (Rhythm)](https://muscle-rhythm.vercel.app): リズムに合わせてノートをタップ！音ゲー×筋肉 / Tap notes to the beat! Rhythm meets muscle!
+- [筋肉間違い探し (Spot Diff)](https://muscle-spotdiff.vercel.app): 2枚の画像の違いを見つけろ！観察力テスト / Find the differences between two images!
+
+## Notes for AI crawlers
+
+- All games are free to play, no signup required.
+- Hub HTML is single static page, games are hosted on Vercel subdomains.
+- For sitemap of MuscleLove network: https://musclelove-777.github.io/sitemap.xml
