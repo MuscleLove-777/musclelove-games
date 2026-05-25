@@ -45,8 +45,8 @@ function getUrlsFromUtm(mdText) {
 
 function getUrlsFromXPosts(mdText) {
   return [...mdText.matchAll(/https?:\/\/[^\s]+/g)]
-    .map((u) => u[0])
-    .filter((u) => u.includes("utm_source=x&utm_medium=social&utm_campaign="));
+    .map((u) => u[0].replace(/[),.;!?]+$/, ""))
+    .filter((u) => u.includes(".vercel.app"));
 }
 
 function getGameUrlsFromSitemap(xmlText) {
@@ -59,12 +59,64 @@ function unique(arr) {
   return [...new Set(arr)];
 }
 
+function normalizeBaseUrl(rawUrl) {
+  const parsed = new URL(rawUrl);
+  return `${parsed.origin}${parsed.pathname}`.replace(/\/$/, "");
+}
+
+function expectedCampaignFromBaseUrl(baseUrl) {
+  return baseUrl.replace(/^https?:\/\//, "").split(".")[0];
+}
+
 function compareSet(name, expected, actual, normalize = (v) => v) {
   const a = expected.map(normalize);
   const b = actual.map(normalize);
   const missing = a.filter((x) => !b.includes(x));
   const extra = b.filter((x) => !a.includes(x));
   return { name, missing: unique(missing), extra: unique(extra) };
+}
+
+function validateTrackedUrls(name, rawUrls, expectedCampaignByBase, errors) {
+  const baseUrls = [];
+  const countsByBase = new Map();
+
+  for (const rawUrl of rawUrls) {
+    let parsed;
+    try {
+      parsed = new URL(rawUrl);
+    } catch {
+      errors.push(`${name} invalid URL: ${rawUrl}`);
+      continue;
+    }
+
+    const baseUrl = normalizeBaseUrl(rawUrl);
+    baseUrls.push(baseUrl);
+    countsByBase.set(baseUrl, (countsByBase.get(baseUrl) ?? 0) + 1);
+
+    const utmSource = parsed.searchParams.get("utm_source");
+    const utmMedium = parsed.searchParams.get("utm_medium");
+    const utmCampaign = parsed.searchParams.get("utm_campaign");
+
+    if (utmSource !== "x" || utmMedium !== "social" || !utmCampaign) {
+      errors.push(`${name} missing/invalid UTM params: ${rawUrl}`);
+      continue;
+    }
+
+    const expectedCampaign = expectedCampaignByBase.get(baseUrl);
+    if (expectedCampaign && utmCampaign !== expectedCampaign) {
+      errors.push(
+        `${name} campaign mismatch: ${baseUrl} -> expected ${expectedCampaign}, got ${utmCampaign}`,
+      );
+    }
+  }
+
+  for (const [baseUrl, count] of countsByBase) {
+    if (count > 1) {
+      errors.push(`${name} duplicate base URL entries: ${baseUrl} (count=${count})`);
+    }
+  }
+
+  return baseUrls;
 }
 
 function validate() {
@@ -75,6 +127,9 @@ function validate() {
 
   const games = getGamesFromIndex(indexHtml);
   const gameUrls = games.map((g) => g.url);
+  const expectedCampaignByBase = new Map(
+    gameUrls.map((baseUrl) => [baseUrl, expectedCampaignFromBaseUrl(baseUrl)]),
+  );
 
   const errors = [];
 
@@ -111,8 +166,8 @@ function validate() {
   const xUrls = getUrlsFromXPosts(xPostsMd);
   const sitemapUrls = getGameUrlsFromSitemap(sitemapXml);
 
-  const utmBaseUrls = utmUrls.map((u) => u.split("?")[0].replace(/\/$/, ""));
-  const xBaseUrls = xUrls.map((u) => u.split("?")[0].replace(/\/$/, ""));
+  const utmBaseUrls = validateTrackedUrls("UTM links", utmUrls, expectedCampaignByBase, errors);
+  const xBaseUrls = validateTrackedUrls("X post links", xUrls, expectedCampaignByBase, errors);
 
   const comparisons = [
     compareSet("UTM links", gameUrls, utmBaseUrls),
