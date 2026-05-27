@@ -12,7 +12,7 @@
       <image:title>MuscleLove Games - 筋肉美女ゲームポータル</image:title>
     </image:image>
   </url>
-  <!-- Games (61) -->
+  <!-- Games (63) -->
   <url>
     <loc>https://muscle-puzzle-game.vercel.app/</loc>
     <lastmod>2026-05-12</lastmod>
@@ -621,6 +621,26 @@
     <image:image>
       <image:loc>https://muscle-sling-crash.vercel.app/og-image.png</image:loc>
       <image:title>筋肉スリングクラッシュ</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://muscle-arrow-fit.vercel.app/</loc>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://muscle-arrow-fit.vercel.app/og-image.png</image:loc>
+      <image:title>筋肉アローフィット</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://muscle-gym-jam.vercel.app/</loc>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://muscle-gym-jam.vercel.app/og-image.png</image:loc>
+      <image:title>筋肉ジムジャム</image:title>
     </image:image>
   </url>
 </urlset>

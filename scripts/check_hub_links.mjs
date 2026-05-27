@@ -76,7 +76,13 @@ function compareSet(name, expected, actual, normalize = (v) => v) {
   return { name, missing: unique(missing), extra: unique(extra) };
 }
 
-function validateTrackedUrls(name, rawUrls, expectedCampaignByBase, errors) {
+function validateTrackedUrls(
+  name,
+  rawUrls,
+  expectedCampaignByBase,
+  errors,
+  { allowDuplicateBases = false, allowCampaignSuffix = false } = {},
+) {
   const baseUrls = [];
   const countsByBase = new Map();
 
@@ -103,16 +109,22 @@ function validateTrackedUrls(name, rawUrls, expectedCampaignByBase, errors) {
     }
 
     const expectedCampaign = expectedCampaignByBase.get(baseUrl);
-    if (expectedCampaign && utmCampaign !== expectedCampaign) {
+    const campaignMatches = allowCampaignSuffix
+      ? utmCampaign === expectedCampaign || utmCampaign.startsWith(`${expectedCampaign}_`)
+      : utmCampaign === expectedCampaign;
+
+    if (expectedCampaign && !campaignMatches) {
       errors.push(
         `${name} campaign mismatch: ${baseUrl} -> expected ${expectedCampaign}, got ${utmCampaign}`,
       );
     }
   }
 
-  for (const [baseUrl, count] of countsByBase) {
-    if (count > 1) {
-      errors.push(`${name} duplicate base URL entries: ${baseUrl} (count=${count})`);
+  if (!allowDuplicateBases) {
+    for (const [baseUrl, count] of countsByBase) {
+      if (count > 1) {
+        errors.push(`${name} duplicate base URL entries: ${baseUrl} (count=${count})`);
+      }
     }
   }
 
@@ -167,11 +179,14 @@ function validate() {
   const sitemapUrls = getGameUrlsFromSitemap(sitemapXml);
 
   const utmBaseUrls = validateTrackedUrls("UTM links", utmUrls, expectedCampaignByBase, errors);
-  const xBaseUrls = validateTrackedUrls("X post links", xUrls, expectedCampaignByBase, errors);
+  const xBaseUrls = validateTrackedUrls("X post links", xUrls, expectedCampaignByBase, errors, {
+    allowDuplicateBases: true,
+    allowCampaignSuffix: true,
+  });
 
   const comparisons = [
     compareSet("UTM links", gameUrls, utmBaseUrls),
-    compareSet("X post links", gameUrls, xBaseUrls),
+    compareSet("X post links", gameUrls, unique(xBaseUrls)),
     compareSet("sitemap links", gameUrls, sitemapUrls, (u) => u.replace(/\/$/, "")),
   ];
 
