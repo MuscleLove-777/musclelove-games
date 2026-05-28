@@ -60,11 +60,19 @@ function unique(arr) {
 }
 
 function extractDeclaredGameCount(mdText) {
-  const match = mdText.match(/全\s*(\d+)\s*本/);
+  const match = mdText.match(/全\s*(\d+)\s*本/) || mdText.match(/\bCOUNT:\s*(\d+)\b/i);
   if (!match) {
     return null;
   }
   return Number.parseInt(match[1], 10);
+}
+
+function extractHeadGameCounts(htmlText) {
+  const headMatch = htmlText.match(/<head[^>]*>([\s\S]*?)<\/head>/i);
+  if (!headMatch) {
+    return [];
+  }
+  return [...headMatch[1].matchAll(/(\d+)\s*本/g)].map((m) => Number.parseInt(m[1], 10));
 }
 
 function normalizeBaseUrl(rawUrl) {
@@ -187,6 +195,7 @@ function validate() {
   const sitemapUrls = getGameUrlsFromSitemap(sitemapXml);
   const declaredUtmCount = extractDeclaredGameCount(utmMd);
   const declaredXCount = extractDeclaredGameCount(xPostsMd);
+  const headDeclaredCounts = extractHeadGameCounts(indexHtml);
 
   const utmBaseUrls = validateTrackedUrls("UTM links", utmUrls, expectedCampaignByBase, errors);
   const xBaseUrls = validateTrackedUrls("X post links", xUrls, expectedCampaignByBase, errors, {
@@ -219,6 +228,17 @@ function validate() {
     errors.push("X post templates header missing declared game count (e.g. 全63本).");
   } else if (declaredXCount !== gameUrls.length) {
     errors.push(`X post templates header count mismatch: declared=${declaredXCount}, actual=${gameUrls.length}`);
+  }
+
+  if (!headDeclaredCounts.length) {
+    errors.push("Hub <head> is missing game-count copy using 'XX本'.");
+  } else {
+    const invalidHeadCounts = unique(headDeclaredCounts.filter((count) => count !== gameUrls.length));
+    if (invalidHeadCounts.length) {
+      errors.push(
+        `Hub <head> game-count copy mismatch: expected=${gameUrls.length}, found=${invalidHeadCounts.join(",")}`,
+      );
+    }
   }
 
   if (errors.length) {
