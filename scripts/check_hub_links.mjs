@@ -197,6 +197,10 @@ function validate() {
   const declaredXCount = extractDeclaredGameCount(xPostsMd);
   const headDeclaredCounts = extractHeadGameCounts(indexHtml);
 
+  if (indexHtml.includes("twitter.com/intent/tweet")) {
+    errors.push("Hub still contains legacy twitter.com intent URL; use x.com/intent/tweet.");
+  }
+
   const utmBaseUrls = validateTrackedUrls("UTM links", utmUrls, expectedCampaignByBase, errors);
   const xBaseUrls = validateTrackedUrls("X post links", xUrls, expectedCampaignByBase, errors, {
     allowDuplicateBases: true,

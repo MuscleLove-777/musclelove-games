@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+  <title id="title">筋肉プレートポップ</title>
+  <desc id="desc">Preview card for the MuscleLove plate pop puzzle</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#25122f"/>
+      <stop offset="100%" stop-color="#101522"/>
+    </linearGradient>
+    <linearGradient id="plate" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fff4de"/>
+      <stop offset="100%" stop-color="#ffc870"/>
+    </linearGradient>
+    <linearGradient id="plateGood" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#d8ffe7"/>
+      <stop offset="100%" stop-color="#7df0b1"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="360" rx="28" fill="url(#bg)"/>
+  <circle cx="70" cy="320" r="90" fill="#7df0b1" fill-opacity="0.14"/>
+  <circle cx="560" cy="60" r="80" fill="#ff6b6b" fill-opacity="0.16"/>
+  <g transform="translate(46 54)">
+    <rect x="0" y="0" width="104" height="104" rx="22" fill="url(#plate)"/>
+    <rect x="120" y="0" width="104" height="104" rx="22" fill="url(#plate)"/>
+    <rect x="240" y="0" width="104" height="104" rx="22" fill="url(#plateGood)"/>
+    <rect x="120" y="120" width="104" height="104" rx="22" fill="url(#plate)"/>
+    <text x="52" y="68" text-anchor="middle" font-size="50" font-family="Arial, sans-serif" font-weight="700" fill="#101522">↑</text>
+    <text x="172" y="68" text-anchor="middle" font-size="50" font-family="Arial, sans-serif" font-weight="700" fill="#101522">→</text>
+    <text x="292" y="68" text-anchor="middle" font-size="50" font-family="Arial, sans-serif" font-weight="700" fill="#101522">←</text>
+    <text x="172" y="188" text-anchor="middle" font-size="50" font-family="Arial, sans-serif" font-weight="700" fill="#101522">↓</text>
+  </g>
+  <text x="404" y="148" fill="#ffd166" font-size="18" font-family="Arial, sans-serif" font-weight="700">Tap Away Puzzle</text>
+  <text x="404" y="192" fill="#ffffff" font-size="34" font-family="Arial, sans-serif" font-weight="700">筋肉プレートポップ</text>
+  <text x="404" y="228" fill="#d1c8e5" font-size="18" font-family="Arial, sans-serif">出口が空いたプレートだけを飛ばす</text>
+  <text x="404" y="256" fill="#d1c8e5" font-size="18" font-family="Arial, sans-serif">3 stage quick puzzle</text>
+</svg>

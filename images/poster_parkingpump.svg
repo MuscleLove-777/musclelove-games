@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#18293d"/>
+      <stop offset="100%" stop-color="#0a0f16"/>
+    </linearGradient>
+    <linearGradient id="hero" x1="0" x2="1">
+      <stop offset="0%" stop-color="#ff7f5c"/>
+      <stop offset="100%" stop-color="#ffd166"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="64" fill="url(#bg)"/>
+  <g opacity="0.14" stroke="#ffffff">
+    <path d="M86 96h320v320H86zM139 96v320M192 96v320M245 96v320M298 96v320M351 96v320M86 149h320M86 202h320M86 255h320M86 308h320M86 361h320"/>
+  </g>
+  <rect x="112" y="228" width="156" height="54" rx="18" fill="url(#hero)"/>
+  <rect x="286" y="122" width="54" height="160" rx="18" fill="#72d7ff"/>
+  <rect x="312" y="334" width="106" height="54" rx="18" fill="#f49dff"/>
+  <text x="108" y="76" fill="#ffd166" font-size="24" font-family="Arial, sans-serif" font-weight="700">NEW DAILY GAME</text>
+  <text x="108" y="430" fill="#ffffff" font-size="34" font-family="Arial, sans-serif" font-weight="800">筋肉パーキングポンプ</text>
+</svg>

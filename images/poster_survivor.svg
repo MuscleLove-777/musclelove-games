@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="420" viewBox="0 0 640 420" role="img" aria-labelledby="title desc">
+  <title id="title">筋肉サバイバー</title>
+  <desc id="desc">筋肉美女がジャンクフード軍団を倒すサバイバーゲーム</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#08111f"/>
+      <stop offset=".55" stop-color="#2b1230"/>
+      <stop offset="1" stop-color="#451018"/>
+    </linearGradient>
+    <radialGradient id="glow" cx=".34" cy=".4" r=".55">
+      <stop offset="0" stop-color="#fb7185" stop-opacity=".55"/>
+      <stop offset=".62" stop-color="#fb7185" stop-opacity=".16"/>
+      <stop offset="1" stop-color="#fb7185" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="640" height="420" fill="url(#bg)"/>
+  <rect width="640" height="420" fill="url(#glow)"/>
+  <g opacity=".12" stroke="#fff">
+    <path d="M0 70h640M0 140h640M0 210h640M0 280h640M0 350h640"/>
+    <path d="M80 0v420M160 0v420M240 0v420M320 0v420M400 0v420M480 0v420M560 0v420"/>
+  </g>
+  <g>
+    <circle cx="225" cy="152" r="38" fill="#fef3c7"/>
+    <rect x="188" y="191" width="74" height="104" rx="29" fill="#fb7185"/>
+    <path d="M189 215c-50 15-74 47-90 88" stroke="#fef3c7" stroke-width="26" stroke-linecap="round" fill="none"/>
+    <path d="M260 214c52 10 84 40 108 79" stroke="#fef3c7" stroke-width="26" stroke-linecap="round" fill="none"/>
+    <path d="M205 292l-20 52M246 292l24 52" stroke="#22d3ee" stroke-width="22" stroke-linecap="round" fill="none"/>
+    <rect x="72" y="290" width="75" height="28" rx="13" fill="#334155" stroke="#22d3ee" stroke-width="7"/>
+    <rect x="340" y="284" width="82" height="28" rx="13" fill="#334155" stroke="#22d3ee" stroke-width="7"/>
+  </g>
+  <g>
+    <circle cx="455" cy="135" r="34" fill="#fb7185"/>
+    <circle cx="455" cy="135" r="15" fill="#261229"/>
+    <rect x="508" y="178" width="70" height="62" rx="15" fill="#ef4444"/>
+    <rect x="516" y="138" width="11" height="55" rx="5" fill="#facc15"/>
+    <rect x="534" y="132" width="11" height="61" rx="5" fill="#facc15"/>
+    <rect x="552" y="144" width="11" height="49" rx="5" fill="#facc15"/>
+    <rect x="430" y="282" width="128" height="56" rx="28" fill="#92400e"/>
+    <rect x="440" y="304" width="108" height="11" rx="5" fill="#facc15"/>
+    <rect x="452" y="319" width="84" height="8" rx="4" fill="#16a34a"/>
+  </g>
+  <text x="34" y="58" fill="#fecdd3" font-size="22" font-family="system-ui, sans-serif" font-weight="800">MuscleLove Games</text>
+  <text x="34" y="106" fill="#fff7ed" font-size="48" font-family="system-ui, sans-serif" font-weight="900">筋肉サバイバー</text>
+  <text x="36" y="372" fill="#facc15" font-size="24" font-family="system-ui, sans-serif" font-weight="900">自動攻撃 × レベルアップ</text>
+</svg>

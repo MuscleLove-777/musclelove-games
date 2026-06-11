@@ -296,3 +296,212 @@ body {
   color: rgba(255, 255, 255, .65);
   font-weight: 500;
 }
+
+/* ==================================================== */
+/*  B-1: Genre-based card accents                       */
+/* ==================================================== */
+/* base: every card has its own border-top accent       */
+.game-card {
+  border-top: 4px solid rgba(255,255,255,.08);
+  position: relative;
+}
+
+/* Puzzle (Match-3 / Slide / 2048 / Sokoban / Maze / Bubble) */
+.game-card.cat-puzzle { border-top-color: #38BDF8; }
+.game-card.cat-puzzle .card-genre { color: #38BDF8; border-color: #38BDF8; }
+.game-card.cat-puzzle:hover {
+  border-top-color: #7DD3FC;
+  box-shadow: 0 0 18px rgba(56,189,248,.35), 0 0 36px rgba(56,189,248,.18);
+}
+
+/* Action (Tower Stack / Reaction / Catch / Whack / Darts / Pong / Snake / Breakout / Tetris / Pinball / Invaders) */
+.game-card.cat-action { border-top-color: #FB923C; }
+.game-card.cat-action .card-genre { color: #FB923C; border-color: #FB923C; }
+.game-card.cat-action:hover {
+  border-top-color: #FDBA74;
+  box-shadow: 0 0 18px rgba(251,146,60,.35), 0 0 36px rgba(251,146,60,.18);
+}
+
+/* Quiz (Quiz / Typing / Hangman / Wordle / Spot Diff / Memory / Simon / Tsum) */
+.game-card.cat-quiz { border-top-color: #FACC15; }
+.game-card.cat-quiz .card-genre { color: #FACC15; border-color: #FACC15; }
+.game-card.cat-quiz:hover {
+  border-top-color: #FDE047;
+  box-shadow: 0 0 18px rgba(250,204,21,.35), 0 0 36px rgba(250,204,21,.18);
+}
+
+/* Fortune (Gacha / Roulette / Slots / Fortune / Personality / Daily / Tier List / Before-After / VS / Flick / Calendar / Omikuji / Shindan / Rhythm) */
+.game-card.cat-fortune { border-top-color: #C084FC; }
+.game-card.cat-fortune .card-genre { color: #C084FC; border-color: #C084FC; }
+.game-card.cat-fortune:hover {
+  border-top-color: #D8B4FE;
+  box-shadow: 0 0 18px rgba(192,132,252,.35), 0 0 36px rgba(192,132,252,.18);
+}
+
+/* RPG (Roguelike RPG / Tower Defense / Battle / Othello / Minesweeper / Connect4) */
+.game-card.cat-rpg { border-top-color: #F87171; }
+.game-card.cat-rpg .card-genre { color: #F87171; border-color: #F87171; }
+.game-card.cat-rpg:hover {
+  border-top-color: #FCA5A5;
+  box-shadow: 0 0 18px rgba(248,113,113,.35), 0 0 36px rgba(248,113,113,.18);
+}
+
+/* 3D (FPS 3D / Action 3D / Endless Runner 3D / 3D Tetris) — flagship */
+.game-card.cat-3d { border-top-color: #FF2D3A; border-top-width: 5px; }
+.game-card.cat-3d .card-genre { color: #FF2D3A; border-color: #FF2D3A; }
+.game-card.cat-3d {
+  box-shadow: 0 0 14px rgba(255,45,58,.18);
+}
+.game-card.cat-3d:hover {
+  transform: translateY(-8px) scale(1.05);
+  border-top-color: #FF6B73;
+  box-shadow:
+    0 0 24px rgba(255,45,58,.55),
+    0 0 48px rgba(255,45,58,.30),
+    0 0 80px rgba(242,201,76,.18);
+}
+
+/* Other (default fallback) */
+.game-card.cat-other { border-top-color: #94A3B8; }
+.game-card.cat-other .card-genre { color: #94A3B8; border-color: #94A3B8; }
+.game-card.cat-other:hover {
+  border-top-color: #CBD5E1;
+  box-shadow: 0 0 18px rgba(148,163,184,.30);
+}
+
+/* common card transition tuning */
+.game-card { transition: transform .3s ease, box-shadow .3s ease, border-top-color .3s ease; }
+
+/* ==================================================== */
+/*  B-2: NEW 3D ribbon                                  */
+/* ==================================================== */
+.game-card.is-new-3d { overflow: hidden; }
+
+.ribbon-new-3d {
+  position: absolute;
+  top: 14px;
+  right: -42px;
+  transform: rotate(45deg);
+  background: linear-gradient(135deg, #F2C94C, #E0A800);
+  color: #1a1a1a;
+  font-weight: 900;
+  font-size: .72rem;
+  letter-spacing: 1.5px;
+  padding: 5px 50px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,.55), 0 0 12px rgba(242,201,76,.45);
+  text-shadow: 0 1px 0 rgba(255,255,255,.35);
+  z-index: 5;
+  pointer-events: none;
+  border-top: 1px solid rgba(255,255,255,.45);
+  border-bottom: 1px solid rgba(0,0,0,.25);
+}
+
+/* ==================================================== */
+/*  B-3: 3D featured hero section                       */
+/* ==================================================== */
+.featured-3d {
+  position: relative;
+  z-index: 1;
+  max-width: 1100px;
+  margin: 16px auto 36px;
+  padding: 32px 20px 36px;
+  border-radius: 18px;
+  background:
+    radial-gradient(ellipse at top left, rgba(255,45,58,.18), transparent 60%),
+    radial-gradient(ellipse at bottom right, rgba(242,201,76,.14), transparent 60%),
+    linear-gradient(135deg, #1a0a0e 0%, #20141a 50%, #1a0e08 100%);
+  border: 1px solid rgba(242,201,76,.22);
+  box-shadow: 0 0 30px rgba(255,45,58,.18), inset 0 0 40px rgba(0,0,0,.5);
+}
+
+.featured-title {
+  font-size: clamp(1.4rem, 4vw, 2rem);
+  font-weight: 900;
+  letter-spacing: 2px;
+  text-align: center;
+  margin-bottom: 22px;
+  background: linear-gradient(135deg, #FF2D3A 0%, #F2C94C 60%, #FF2D3A 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-shadow: 0 0 30px rgba(255,45,58,.35);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.featured-badge {
+  display: inline-block;
+  font-size: .72rem;
+  letter-spacing: 1.5px;
+  font-weight: 800;
+  padding: 4px 12px;
+  border-radius: 50px;
+  background: linear-gradient(135deg, #F2C94C, #E0A800);
+  color: #1a1a1a;
+  -webkit-text-fill-color: #1a1a1a;
+  box-shadow: 0 0 16px rgba(242,201,76,.55);
+  text-shadow: none;
+}
+
+.featured-grid {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: stretch;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.featured-grid .game-card {
+  flex: 1 1 300px;
+  max-width: 340px;
+  border-top-width: 5px;
+  background: linear-gradient(180deg, #1c1014 0%, #16162a 100%);
+  box-shadow: 0 0 18px rgba(255,45,58,.25), 0 0 36px rgba(242,201,76,.10);
+}
+
+.featured-grid .game-card .card-image {
+  aspect-ratio: 16 / 11;
+}
+
+.featured-grid .game-card .card-image img {
+  transition: transform .5s ease;
+}
+
+.featured-grid .game-card:hover {
+  transform: translateY(-10px) scale(1.05);
+  box-shadow:
+    0 0 28px rgba(255,45,58,.65),
+    0 0 56px rgba(255,45,58,.35),
+    0 0 90px rgba(242,201,76,.25);
+  border-color: rgba(242,201,76,.6);
+}
+
+.featured-grid .game-card:hover .card-image img {
+  transform: scale(1.12);
+}
+
+.featured-grid .game-card .card-title {
+  font-size: 1.45rem;
+}
+
+/* mobile: featured grid stacks vertically */
+@media (max-width: 640px) {
+  .featured-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+  .featured-grid .game-card {
+    width: 100%;
+    max-width: 480px;
+    flex: 1 1 auto;
+  }
+  .featured-3d {
+    margin: 8px 12px 28px;
+    padding: 24px 14px 28px;
+  }
+}

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360" role="img" aria-label="筋肉ヘキサブラスト">
+  <defs>
+    <linearGradient id="bg" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#2a193d"/>
+      <stop offset="100%" stop-color="#100b18"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="360" rx="32" fill="url(#bg)"/>
+  <g transform="translate(72 64)">
+    <polygon points="54,0 108,0 135,46 108,92 54,92 27,46" fill="#ff7b7b"/>
+    <polygon points="150,28 204,28 231,74 204,120 150,120 123,74" fill="#5cd0ff"/>
+    <polygon points="246,0 300,0 327,46 300,92 246,92 219,46" fill="#ffd166"/>
+    <polygon points="102,118 156,118 183,164 156,210 102,210 75,164" fill="#7ae582"/>
+    <polygon points="198,146 252,146 279,192 252,238 198,238 171,192" fill="#b794f4"/>
+  </g>
+  <text x="366" y="116" fill="#ffd166" font-size="18" font-family="Verdana, sans-serif" font-weight="700">NEW DAILY GAME</text>
+  <text x="366" y="178" fill="#fff7f3" font-size="42" font-family="Verdana, sans-serif" font-weight="700">筋肉ヘキサブラスト</text>
+  <text x="366" y="218" fill="#d8c7e7" font-size="22" font-family="Verdana, sans-serif">六角プレートをまとめてタップ</text>
+  <text x="366" y="252" fill="#d8c7e7" font-size="22" font-family="Verdana, sans-serif">60秒連鎖のブラストパズル</text>
+</svg>

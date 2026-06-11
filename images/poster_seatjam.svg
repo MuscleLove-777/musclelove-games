@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2a1459"/>
+      <stop offset="100%" stop-color="#0d1220"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="600" rx="36" fill="url(#bg)"/>
+  <circle cx="116" cy="118" r="78" fill="#ff7d8f" opacity="0.34"/>
+  <circle cx="484" cy="126" r="92" fill="#71dfff" opacity="0.22"/>
+  <text x="48" y="74" fill="#ffd86b" font-family="Trebuchet MS, Segoe UI, sans-serif" font-size="28" font-weight="700" letter-spacing="3">QUEUE JAM PUZZLE</text>
+  <text x="46" y="140" fill="#ffffff" font-family="Trebuchet MS, Segoe UI, sans-serif" font-size="50" font-weight="800">筋肉シートジャム</text>
+  <g transform="translate(56 196)">
+    <rect x="0" y="0" width="146" height="76" rx="22" fill="#1b1335" stroke="#ffffff" stroke-opacity="0.12"/>
+    <rect x="170" y="0" width="146" height="76" rx="22" fill="#1b1335" stroke="#ffffff" stroke-opacity="0.12"/>
+    <rect x="340" y="0" width="146" height="76" rx="22" fill="#1b1335" stroke="#ffffff" stroke-opacity="0.12"/>
+    <circle cx="38" cy="38" r="21" fill="#ff7d8f"/>
+    <circle cx="73" cy="38" r="21" fill="#ff7d8f"/>
+    <circle cx="108" cy="38" r="21" fill="#ff7d8f"/>
+    <circle cx="208" cy="38" r="21" fill="#85efb0"/>
+    <circle cx="243" cy="38" r="21" fill="#85efb0"/>
+    <circle cx="378" cy="38" r="21" fill="#c093ff"/>
+  </g>
+  <g transform="translate(84 340)">
+    <rect x="0" y="0" width="78" height="152" rx="24" fill="#18122e" stroke="#ffffff" stroke-opacity="0.12"/>
+    <rect x="90" y="0" width="78" height="152" rx="24" fill="#18122e" stroke="#ffffff" stroke-opacity="0.12"/>
+    <rect x="180" y="0" width="78" height="152" rx="24" fill="#18122e" stroke="#ffffff" stroke-opacity="0.12"/>
+    <rect x="270" y="0" width="78" height="152" rx="24" fill="#18122e" stroke="#ffffff" stroke-opacity="0.12"/>
+    <rect x="360" y="0" width="78" height="152" rx="24" fill="#18122e" stroke="#ffffff" stroke-opacity="0.12"/>
+    <circle cx="39" cy="38" r="18" fill="#ff7d8f"/>
+    <circle cx="39" cy="84" r="18" fill="#ffd86b"/>
+    <circle cx="39" cy="130" r="18" fill="#85efb0"/>
+    <circle cx="129" cy="38" r="18" fill="#ff7d8f"/>
+    <circle cx="129" cy="84" r="18" fill="#ffd86b"/>
+    <circle cx="129" cy="130" r="18" fill="#71dfff"/>
+    <circle cx="219" cy="38" r="18" fill="#ff7d8f"/>
+    <circle cx="219" cy="84" r="18" fill="#85efb0"/>
+    <circle cx="219" cy="130" r="18" fill="#71dfff"/>
+    <circle cx="309" cy="38" r="18" fill="#ffd86b"/>
+    <circle cx="309" cy="84" r="18" fill="#c093ff"/>
+    <circle cx="309" cy="130" r="18" fill="#71dfff"/>
+    <circle cx="399" cy="38" r="18" fill="#85efb0"/>
+    <circle cx="399" cy="84" r="18" fill="#c093ff"/>
+    <circle cx="399" cy="130" r="18" fill="#c093ff"/>
+  </g>
+</svg>

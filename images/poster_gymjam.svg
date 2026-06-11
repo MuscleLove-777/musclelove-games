@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="800" viewBox="0 0 600 800" role="img" aria-label="筋肉ジムジャム">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#151b2d"/>
+      <stop offset="100%" stop-color="#090c14"/>
+    </linearGradient>
+    <linearGradient id="plate1" x1="0" x2="1">
+      <stop offset="0%" stop-color="#ff7098"/>
+      <stop offset="100%" stop-color="#ffd0dc"/>
+    </linearGradient>
+    <linearGradient id="plate2" x1="0" x2="1">
+      <stop offset="0%" stop-color="#66ddff"/>
+      <stop offset="100%" stop-color="#d6f7ff"/>
+    </linearGradient>
+    <linearGradient id="plate3" x1="0" x2="1">
+      <stop offset="0%" stop-color="#90f1c8"/>
+      <stop offset="100%" stop-color="#edfff6"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="800" fill="url(#bg)"/>
+  <text x="54" y="88" fill="#ffd469" font-family="Trebuchet MS, Noto Sans JP, sans-serif" font-size="26" font-weight="800">MUSCLELOVE</text>
+  <text x="54" y="152" fill="#ffffff" font-family="Trebuchet MS, Noto Sans JP, sans-serif" font-size="56" font-weight="900">筋肉ジムジャム</text>
+  <text x="54" y="196" fill="#d7e2f8" font-family="Trebuchet MS, Noto Sans JP, sans-serif" font-size="22">色ゲートに流して盤面整理</text>
+  <rect x="76" y="248" width="448" height="448" rx="36" fill="#101524" stroke="#304062"/>
+  <g opacity="0.46">
+    <rect x="102" y="274" width="62" height="62" rx="14" fill="#1d2438"/>
+    <rect x="176" y="274" width="62" height="62" rx="14" fill="#1d2438"/>
+    <rect x="250" y="274" width="62" height="62" rx="14" fill="#1d2438"/>
+    <rect x="324" y="274" width="62" height="62" rx="14" fill="#1d2438"/>
+    <rect x="398" y="274" width="62" height="62" rx="14" fill="#1d2438"/>
+    <rect x="102" y="348" width="62" height="62" rx="14" fill="#1d2438"/>
+    <rect x="176" y="348" width="62" height="62" rx="14" fill="#1d2438"/>
+    <rect x="250" y="348" width="62" height="62" rx="14" fill="#1d2438"/>
+    <rect x="324" y="348" width="62" height="62" rx="14" fill="#1d2438"/>
+    <rect x="398" y="348" width="62" height="62" rx="14" fill="#1d2438"/>
+  </g>
+  <rect x="176" y="348" width="136" height="62" rx="16" fill="url(#plate1)"/>
+  <rect x="324" y="422" width="62" height="136" rx="16" fill="url(#plate2)"/>
+  <rect x="176" y="496" width="210" height="62" rx="16" fill="url(#plate3)"/>
+  <rect x="470" y="361" width="24" height="40" rx="10" fill="#ff7098"/>
+  <rect x="338" y="680" width="40" height="24" rx="10" fill="#66ddff"/>
+  <text x="54" y="748" fill="#90f1c8" font-family="Trebuchet MS, Noto Sans JP, sans-serif" font-size="22" font-weight="800">BLOCK JAM INSPIRED ORIGINAL PUZZLE</text>
+</svg>

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#18122f"/>
+      <stop offset="100%" stop-color="#06070d"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.34"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.08"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="360" fill="url(#bg)"/>
+  <circle cx="92" cy="74" r="46" fill="#ff7f50" fill-opacity="0.24"/>
+  <circle cx="560" cy="76" r="62" fill="#6ec5ff" fill-opacity="0.18"/>
+  <text x="34" y="54" fill="#ffd166" font-size="20" font-family="Segoe UI, sans-serif" letter-spacing="3">NEW SORT PUZZLE</text>
+  <text x="34" y="96" fill="#ffffff" font-size="36" font-weight="800" font-family="Segoe UI, sans-serif">筋肉シェイカーソート</text>
+  <text x="34" y="126" fill="#cfd3ea" font-size="18" font-family="Segoe UI, sans-serif">プロテインを注ぎ分けて整理</text>
+  <g transform="translate(312 52)">
+    <g transform="translate(0 0)">
+      <rect x="0" y="0" width="78" height="210" rx="26" fill="url(#glass)" stroke="#ffffff" stroke-opacity="0.24" stroke-width="3"/>
+      <rect x="12" y="152" width="54" height="36" rx="12" fill="#ff6b8a"/>
+      <rect x="12" y="112" width="54" height="36" rx="12" fill="#ff6b8a"/>
+      <rect x="12" y="72" width="54" height="36" rx="12" fill="#ffd166"/>
+      <rect x="12" y="32" width="54" height="36" rx="12" fill="#ffd166"/>
+    </g>
+    <g transform="translate(92 16)">
+      <rect x="0" y="0" width="78" height="210" rx="26" fill="url(#glass)" stroke="#ffffff" stroke-opacity="0.24" stroke-width="3"/>
+      <rect x="12" y="152" width="54" height="36" rx="12" fill="#61d095"/>
+      <rect x="12" y="112" width="54" height="36" rx="12" fill="#61d095"/>
+      <rect x="12" y="72" width="54" height="36" rx="12" fill="#6ec5ff"/>
+    </g>
+    <g transform="translate(184 30)">
+      <rect x="0" y="0" width="78" height="210" rx="26" fill="url(#glass)" stroke="#ffffff" stroke-opacity="0.24" stroke-width="3"/>
+      <rect x="12" y="152" width="54" height="36" rx="12" fill="#b17a56"/>
+      <rect x="12" y="112" width="54" height="36" rx="12" fill="#b17a56"/>
+      <rect x="12" y="72" width="54" height="36" rx="12" fill="#61d095"/>
+      <rect x="12" y="32" width="54" height="36" rx="12" fill="#6ec5ff"/>
+    </g>
+  </g>
+</svg>
