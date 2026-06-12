@@ -12,7 +12,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname  = path.dirname(__filename);
 
 // Borrow puppeteer-core from the temp install
-const PUP_PATH = 'C:/Users/atsus/AppData/Local/Temp/pupcheck/node_modules/puppeteer-core/lib/esm/puppeteer/puppeteer-core.js';
+const PUP_PATH = process.env.USERPROFILE.replace(/\\/g, '/') + '/AppData/Local/Temp/pupcheck/node_modules/puppeteer-core/lib/esm/puppeteer/puppeteer-core.js';
 const { default: puppeteer } = await import(pathToFileURL(PUP_PATH).href);
 
 const CHROME_PATH = 'C:/Program Files/Google/Chrome/Application/chrome.exe';
