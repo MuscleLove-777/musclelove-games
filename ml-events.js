@@ -80,20 +80,35 @@
   }, true);
 
   /* ---------- game_over heuristic (id/class contains gameover) ---------- */
+  // 終了画面のid/class語彙。games横断で観測した実パターン:
+  //   overlay-gameover(2048) / result, result-screen, result-content(mat-fit/parking-pump/match3等)
+  //   overlay-complete, overlay-gameclear(maze) / win/lose/clear/complete/time's up 系
+  var GAME_OVER_RE = /(game-?over|gameover|game-?clear|gameclear|game-?win|gamewin|overlay-complete|overlay-clear|level-complete|stage-clear|result-screen|result-content|\bresults?\b|time-?s?-?up|win-?screen|lose-?screen|end-?screen)/;
   var lastGO = 0;
   function isVisible(el) {
+    if (el.hasAttribute && el.hasAttribute('hidden')) return false;
     return !!(el.offsetWidth || el.offsetHeight || el.getClientRects().length);
   }
-  function checkGameOver(el) {
-    if (!el || el.nodeType !== 1) return;
-    var s = ((el.id || '') + ' ' + (typeof el.className === 'string' ? el.className : '')).toLowerCase();
-    if (!/(game-?over|gameover)/.test(s)) return;
-    if (!isVisible(el)) return;
+  function fireGameOver() {
     var now = Date.now();
     if (now - lastGO < 10000) return; // debounce 10s
     lastGO = now;
     track('game_over_shown');
     setTimeout(function () { showPill('gameover'); }, 1500);
+  }
+  function checkGameOver(el) {
+    if (!el || el.nodeType !== 1) return;
+    var s = ((el.id || '') + ' ' + (typeof el.className === 'string' ? el.className : '')).toLowerCase();
+    var hit = GAME_OVER_RE.test(s) ? el : null;
+    // 追加ノートが終了画面を内包しているケース (innerHTML差し替え型)
+    if (!hit && el.querySelector) {
+      try {
+        hit = el.querySelector('[id*="result"],[class*="result"],[id*="gameover"],[id*="game-over"],[class*="gameover"],[id*="gameclear"],[id*="overlay-complete"]');
+      } catch (e) { hit = null; }
+    }
+    if (!hit) return;
+    if (!isVisible(hit)) return;
+    fireGameOver();
   }
   function startObserver() {
     if (IS_PORTAL || !document.body || !window.MutationObserver) return;
@@ -107,7 +122,7 @@
       }
     }).observe(document.body, {
       subtree: true, childList: true,
-      attributes: true, attributeFilter: ['class', 'style']
+      attributes: true, attributeFilter: ['class', 'style', 'hidden']
     });
   }
 
