@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="420" viewBox="0 0 640 420" role="img" aria-labelledby="title desc">
+  <title id="title">マッスルクラフト</title>
+  <desc id="desc">ブロックを掘って積んで筋肉の街とジムを建てる3Dボクセル建設サンドボックス</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7db8ec"/>
+      <stop offset="1" stop-color="#bfe3ff"/>
+    </linearGradient>
+    <linearGradient id="skin" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f0b88c"/><stop offset="1" stop-color="#cf8a5e"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="420" fill="url(#sky)"/>
+  <circle cx="548" cy="80" r="56" fill="#fff6c8" opacity="0.85"/>
+  <!-- clouds -->
+  <g fill="#ffffff" opacity="0.85">
+    <ellipse cx="120" cy="74" rx="46" ry="18"/><ellipse cx="158" cy="64" rx="34" ry="16"/>
+    <ellipse cx="420" cy="48" rx="40" ry="15"/><ellipse cx="452" cy="40" rx="28" ry="13"/>
+  </g>
+  <!-- tree (voxel) -->
+  <g>
+    <rect x="40" y="232" width="20" height="70" fill="#9a6a34"/><rect x="40" y="232" width="20" height="70" fill="#c08a4a" opacity="0.4"/>
+    <g fill="#4e9e2c"><rect x="14" y="188" width="72" height="50"/><rect x="26" y="166" width="48" height="28"/></g>
+    <g fill="#6abf3f"><rect x="14" y="188" width="72" height="10"/><rect x="26" y="166" width="48" height="9"/></g>
+  </g>
+  <!-- ground voxels -->
+  <g>
+    <rect x="0" y="306" width="640" height="114" fill="#7a5230"/>
+    <rect x="0" y="296" width="640" height="22" fill="#6abf3f"/>
+    <rect x="0" y="296" width="640" height="6" fill="#86d957"/>
+    <g stroke="#000" stroke-opacity="0.10" stroke-width="2">
+      <path d="M0 318 H640 M0 360 H640 M40 296 V420 M120 318 V420 M200 296 V420 M280 318 V420 M360 296 V420 M440 318 V420 M520 296 V420 M600 318 V420"/>
+    </g>
+  </g>
+  <!-- built wall (stone+glass) being constructed, right -->
+  <g>
+    <g fill="#8d8f96" stroke="#6c6e75" stroke-width="2">
+      <rect x="470" y="236" width="40" height="40"/><rect x="510" y="236" width="40" height="40"/><rect x="550" y="236" width="40" height="40"/>
+      <rect x="470" y="276" width="40" height="40"/><rect x="550" y="276" width="40" height="40"/>
+    </g>
+    <rect x="510" y="276" width="40" height="40" fill="#a9e6ff" stroke="#7fd0f5" stroke-width="2" opacity="0.8"/>
+    <!-- neon GYM sign -->
+    <rect x="470" y="196" width="120" height="34" rx="5" fill="#ff4d9e"/>
+    <rect x="470" y="196" width="120" height="34" rx="5" fill="none" stroke="#ffd1ea" stroke-width="2"/>
+    <text x="530" y="221" font-family="Segoe UI, sans-serif" font-weight="900" font-size="22" fill="#fff" text-anchor="middle">GYM</text>
+  </g>
+  <!-- gym gear voxels (dumbbell + bench + mat) center-right -->
+  <g>
+    <!-- mat -->
+    <rect x="360" y="288" width="92" height="14" fill="#ff7eb6"/><rect x="360" y="288" width="92" height="14" fill="none" stroke="#e0559a" stroke-width="2"/>
+    <!-- bench -->
+    <rect x="372" y="262" width="64" height="14" rx="3" fill="#c8243f"/><rect x="380" y="276" width="8" height="14" fill="#1c1d22"/><rect x="420" y="276" width="8" height="14" fill="#1c1d22"/>
+    <!-- floating dumbbell block -->
+    <g transform="translate(300 250)">
+      <rect x="-6" y="-7" width="12" height="14" rx="3" fill="#ff3a5a"/>
+      <rect x="-34" y="-13" width="16" height="26" rx="3" fill="#15161a"/><rect x="18" y="-13" width="16" height="26" rx="3" fill="#15161a"/>
+      <rect x="-18" y="-4" width="36" height="8" fill="#3a3d46"/>
+    </g>
+  </g>
+  <!-- muscle girl from behind, holding dumbbell -->
+  <g transform="translate(196 0)">
+    <ellipse cx="0" cy="402" rx="52" ry="8" fill="#3a2a16" opacity="0.5"/>
+    <!-- legs (leggings) -->
+    <path d="M-22 398 Q-24 360 -16 332 L-2 336 Q-6 366 -8 398 Z" fill="#2a3a6a"/>
+    <path d="M22 398 Q24 360 16 332 L2 336 Q6 366 8 398 Z" fill="#2a3a6a"/>
+    <!-- glutes/hips -->
+    <path d="M-26 340 Q-30 308 -16 292 Q0 284 16 292 Q30 308 26 340 Q0 352 -26 340 Z" fill="#243466"/>
+    <!-- back (tank top) -->
+    <path d="M-24 296 Q-26 256 -14 232 Q0 224 14 232 Q26 256 24 296 Q0 304 -24 296 Z" fill="#ff4d8d"/>
+    <!-- muscular shoulders/arms -->
+    <ellipse cx="-26" cy="244" rx="13" ry="16" fill="url(#skin)"/>
+    <ellipse cx="26" cy="244" rx="13" ry="16" fill="url(#skin)"/>
+    <path d="M-30 248 Q-44 264 -40 286 L-30 282 Q-32 264 -22 252 Z" fill="url(#skin)"/>
+    <path d="M30 248 Q44 264 40 286 L30 282 Q32 264 22 252 Z" fill="url(#skin)"/>
+    <!-- neck + head + ponytail -->
+    <rect x="-7" y="214" width="14" height="16" fill="url(#skin)"/>
+    <circle cx="0" cy="200" r="19" fill="url(#skin)"/>
+    <path d="M-18 196 Q-20 172 0 168 Q20 172 18 196 Q18 182 0 180 Q-18 182 -18 196 Z" fill="#3a2a18"/>
+    <path d="M14 182 Q40 192 44 232 Q40 248 32 244 Q40 210 10 192 Z" fill="#3a2a18"/>
+    <!-- raised dumbbell overhead -->
+    <g transform="translate(40 240) rotate(8)">
+      <rect x="-7" y="-44" width="14" height="40" rx="3" fill="url(#skin)"/>
+      <rect x="-26" y="-58" width="12" height="22" rx="3" fill="#15161a"/><rect x="14" y="-58" width="12" height="22" rx="3" fill="#15161a"/>
+      <rect x="-14" y="-51" width="28" height="8" fill="#3a3d46"/>
+    </g>
+  </g>
+  <!-- title -->
+  <g font-family="Segoe UI, sans-serif" font-weight="900">
+    <text x="20" y="56" font-size="48" font-style="italic" fill="#ffffff" stroke="#0a2a4a" stroke-width="1.8">MUSCLE</text>
+    <text x="20" y="104" font-size="48" font-style="italic" fill="#ff4d8d" stroke="#0a2a4a" stroke-width="1.8">CRAFT</text>
+    <text x="22" y="132" font-size="17" fill="#0a3a5a">マッスルクラフト</text>
+    <text x="20" y="406" font-size="20" fill="#fff3c8" stroke="#000" stroke-width="0.8">掘って、積んで、ジムを建てろ。</text>
+  </g>
+</svg>

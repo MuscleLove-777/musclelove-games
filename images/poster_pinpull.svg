@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+  <title id="title">筋肉ピンプル</title>
+  <desc id="desc">泡で洗ってからピンを抜く、MuscleLove の pin pull puzzle。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#17111d"/>
+      <stop offset="55%" stop-color="#301a31"/>
+      <stop offset="100%" stop-color="#4f2336"/>
+    </linearGradient>
+    <radialGradient id="pink" cx="30%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#fff7fb"/>
+      <stop offset="58%" stop-color="#ff6b7a"/>
+      <stop offset="100%" stop-color="#7d2940"/>
+    </radialGradient>
+    <radialGradient id="cyan" cx="30%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="58%" stop-color="#74e8ff"/>
+      <stop offset="100%" stop-color="#23606b"/>
+    </radialGradient>
+  </defs>
+  <rect width="640" height="360" rx="28" fill="url(#bg)"/>
+  <circle cx="92" cy="66" r="70" fill="#ff6b7a" opacity="0.18"/>
+  <circle cx="564" cy="306" r="84" fill="#74e8ff" opacity="0.18"/>
+  <rect x="28" y="28" width="584" height="304" rx="24" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.14)"/>
+  <text x="48" y="74" fill="#ffd36c" font-size="17" font-family="'Segoe UI', sans-serif" letter-spacing="2">MUSCLELOVE NEW GAME</text>
+  <text x="48" y="132" fill="#fff7fb" font-size="42" font-weight="700" font-family="'Segoe UI', 'Hiragino Sans', sans-serif">筋肉ピンプル</text>
+  <text x="48" y="168" fill="#d8c7d6" font-size="23" font-family="'Segoe UI', sans-serif">Pin Pull Puzzle</text>
+  <text x="48" y="214" fill="#ffffff" font-size="20" font-family="'Segoe UI', 'Hiragino Sans', sans-serif">泡で洗ってからピンを抜く。</text>
+  <text x="48" y="244" fill="#ffffff" font-size="20" font-family="'Segoe UI', 'Hiragino Sans', sans-serif">プロテインだけを GOAL へ。</text>
+  <circle cx="472" cy="128" r="26" fill="url(#pink)"/>
+  <circle cx="528" cy="128" r="26" fill="url(#pink)"/>
+  <circle cx="500" cy="188" r="26" fill="url(#cyan)"/>
+  <rect x="430" y="238" width="128" height="38" rx="19" fill="#20182c" stroke="rgba(255,255,255,0.14)"/>
+  <text x="447" y="262" fill="#ffd36c" font-size="16" font-family="'Segoe UI', sans-serif">FOAM → PIN → GOAL</text>
+</svg>

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1e3a5f"/>
+      <stop offset="1" stop-color="#0b1220"/>
+    </linearGradient>
+    <linearGradient id="gate" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#475569"/>
+      <stop offset="0.5" stop-color="#94a3b8"/>
+      <stop offset="1" stop-color="#475569"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#sky)"/>
+  <!-- gates -->
+  <g>
+    <rect x="250" y="0" width="52" height="95" fill="url(#gate)"/>
+    <rect x="246" y="95" width="60" height="14" fill="#e2e8f0"/>
+    <rect x="250" y="200" width="52" height="100" fill="url(#gate)"/>
+    <rect x="246" y="186" width="60" height="14" fill="#e2e8f0"/>
+    <rect x="340" y="0" width="52" height="55" fill="url(#gate)"/>
+    <rect x="336" y="55" width="60" height="14" fill="#e2e8f0"/>
+    <rect x="340" y="160" width="52" height="140" fill="url(#gate)"/>
+    <rect x="336" y="146" width="60" height="14" fill="#e2e8f0"/>
+  </g>
+  <!-- muscle bird -->
+  <g transform="translate(120,140) rotate(-12)">
+    <circle cx="0" cy="0" r="34" fill="#ffb38a"/>
+    <rect x="-34" y="-20" width="68" height="14" fill="#ff2d3a"/>
+    <circle cx="24" cy="4" r="17" fill="#ffb38a"/>
+    <circle cx="13" cy="-2" r="5.5" fill="#1e293b"/>
+  </g>
+  <text x="24" y="270" font-family="system-ui,sans-serif" font-size="34" font-weight="800" fill="#ffffff">Muscle Flappy</text>
+  <text x="26" y="42" font-family="system-ui,sans-serif" font-size="18" font-weight="800" fill="#fbbf24">💪 TAP TO FLAP</text>
+</svg>

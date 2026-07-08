@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="420" viewBox="0 0 640 420" role="img" aria-labelledby="title desc">
+  <title id="title">筋肉ハンター</title>
+  <desc id="desc">筋肉美女ハンターがモンスターを狩りビキニと武器を生産する狩猟アクション</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#16240f"/>
+      <stop offset="0.6" stop-color="#2c3c14"/>
+      <stop offset="1" stop-color="#5d4a18"/>
+    </linearGradient>
+    <linearGradient id="skin" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e8a87c"/>
+      <stop offset="1" stop-color="#c98a5e"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="420" fill="url(#bg)"/>
+  <circle cx="520" cy="80" r="52" fill="#f5e6b8" opacity="0.85"/>
+
+  <!-- dragon silhouette -->
+  <g fill="#10160a" opacity="0.9">
+    <path d="M60 190 Q140 100 250 125 Q225 70 295 50 Q282 102 345 115 Q455 137 485 215 Q415 183 365 196 Q428 240 415 295 Q352 232 278 238 Q205 244 160 212 Q118 255 50 250 Q93 212 80 193 Q70 191 60 190 Z"/>
+    <path d="M288 52 L305 5 L322 57 Z"/>
+    <path d="M333 62 L365 24 L362 72 Z"/>
+  </g>
+
+  <!-- hunter back view with spear -->
+  <g transform="translate(60 95) scale(0.62)">
+    <ellipse cx="200" cy="452" rx="60" ry="13" fill="#000" opacity="0.35"/>
+    <path d="M178 360 Q172 410 176 448 L192 448 Q192 405 196 372 Z" fill="url(#skin)"/>
+    <path d="M222 360 Q228 410 224 448 L208 448 Q208 405 204 372 Z" fill="url(#skin)"/>
+    <path d="M170 444 L196 444 L196 456 L166 456 Z" fill="#5a3b22"/>
+    <path d="M230 444 L204 444 L204 456 L234 456 Z" fill="#5a3b22"/>
+    <path d="M163 250 Q160 300 178 345 Q200 360 222 345 Q240 300 237 250 Q218 238 200 238 Q182 238 163 250 Z" fill="url(#skin)"/>
+    <path d="M176 340 Q200 362 224 340 Q224 356 200 366 Q176 356 176 340 Z" fill="#d8262f"/>
+    <path d="M165 258 Q200 274 235 258 L235 248 Q200 264 165 248 Z" fill="#d8262f"/>
+    <path d="M163 252 Q138 240 128 215 Q124 200 136 192 Q152 186 160 200 Q170 220 172 246 Z" fill="url(#skin)"/>
+    <circle cx="135" cy="200" r="15" fill="url(#skin)"/>
+    <path d="M237 252 Q262 240 272 215 Q276 200 264 192 Q248 186 240 200 Q230 220 228 246 Z" fill="url(#skin)"/>
+    <circle cx="265" cy="200" r="15" fill="url(#skin)"/>
+    <rect x="262" y="40" width="8" height="245" rx="4" fill="#7c5a30" transform="rotate(8 265 170)"/>
+    <path d="M282 26 L302 62 L268 58 Z" fill="#cfd6dd"/>
+    <circle cx="200" cy="222" r="24" fill="url(#skin)"/>
+    <path d="M178 214 Q176 192 200 190 Q224 192 222 214 Q212 200 200 201 Q188 200 178 214 Z" fill="#5c3a1e"/>
+    <path d="M200 192 Q206 160 196 130 Q214 150 212 192 Z" fill="#5c3a1e"/>
+  </g>
+
+  <!-- title -->
+  <g text-anchor="middle" font-family="'Hiragino Sans','Noto Sans JP',system-ui,sans-serif" font-weight="900">
+    <text x="400" y="330" font-size="72" fill="#e8b53a" stroke="#2b1c05" stroke-width="4" paint-order="stroke">筋肉ハンター</text>
+    <text x="400" y="368" font-size="22" fill="#f5f0e1" stroke="#2b1c05" stroke-width="2" paint-order="stroke">MUSCLE HUNTER</text>
+    <text x="320" y="404" font-size="19" fill="#f5e6b8">狩って、剥ぎ取って、ビキニを鍛える。狩猟アクション</text>
+  </g>
+</svg>
