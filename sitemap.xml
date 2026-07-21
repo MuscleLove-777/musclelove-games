@@ -12,7 +12,7 @@
       <image:title>MuscleLove Games - 筋肉美女ゲームポータル</image:title>
     </image:image>
   </url>
-  <!-- Games (84) -->
+  <!-- Games (93) -->
   <url>
     <loc>https://muscle-nonogram.vercel.app/</loc>
     <lastmod>2026-07-22</lastmod>
@@ -800,7 +800,7 @@
     <priority>0.8</priority>
     <image:image>
       <image:loc>https://muscle-pin-pull.vercel.app/og-image.png</image:loc>
-      <image:title>??????</image:title>
+      <image:title>筋肉ピンプル</image:title>
     </image:image>
   </url>
   <url>
@@ -851,6 +851,96 @@
     <image:image>
       <image:loc>https://muscle-wordsearch.vercel.app/og-image.png</image:loc>
       <image:title>筋トレ単語探し</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://muscle-battle-precise.vercel.app/</loc>
+    <lastmod>2026-07-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://muscle-battle-precise.vercel.app/og-image.png</image:loc>
+      <image:title>筋肉バトル精密版</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://muscle-connect4.vercel.app/</loc>
+    <lastmod>2026-07-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://muscle-connect4.vercel.app/og-image.png</image:loc>
+      <image:title>筋肉4目並べ</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://muscle-golf-3d.vercel.app/</loc>
+    <lastmod>2026-07-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://muscle-golf-3d.vercel.app/og-image.png</image:loc>
+      <image:title>筋肉ゴルフ3D</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://muscle-minesweeper.vercel.app/</loc>
+    <lastmod>2026-07-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://muscle-minesweeper.vercel.app/og-image.png</image:loc>
+      <image:title>筋肉マインスイーパー</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://muscle-othello.vercel.app/</loc>
+    <lastmod>2026-07-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://muscle-othello.vercel.app/og-image.png</image:loc>
+      <image:title>筋肉オセロ</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://muscle-pinball.vercel.app/</loc>
+    <lastmod>2026-07-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://muscle-pinball.vercel.app/og-image.png</image:loc>
+      <image:title>筋肉ピンボール</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://muscle-sokoban.vercel.app/</loc>
+    <lastmod>2026-07-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://muscle-sokoban.vercel.app/og-image.png</image:loc>
+      <image:title>筋肉倉庫番</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://muscle-tsum.vercel.app/</loc>
+    <lastmod>2026-07-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://muscle-tsum.vercel.app/og-image.png</image:loc>
+      <image:title>筋肉ツム</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tetris3d.vercel.app/</loc>
+    <lastmod>2026-07-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://tetris3d.vercel.app/og-image.png</image:loc>
+      <image:title>筋肉テトリス3D</image:title>
     </image:image>
   </url>
 </urlset>
