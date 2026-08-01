@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-labelledby="title desc">
+  <title id="title">筋肉レップラリー</title>
+  <desc id="desc">Timing lane poster for Muscle Rep Rally.</desc>
+  <rect width="800" height="450" fill="#14171f"/>
+  <path d="M0 366c95-28 196-30 300-8 104 22 188 14 276-24 98-43 174-45 224-8v124H0z" fill="#1e2430"/>
+  <rect x="74" y="126" width="652" height="130" rx="26" fill="#171d27" stroke="#ffffff" stroke-opacity=".18" stroke-width="4"/>
+  <rect x="332" y="126" width="130" height="130" fill="#ffd166" fill-opacity=".28" stroke="#ffd166" stroke-width="4"/>
+  <rect x="442" y="142" width="42" height="98" rx="12" fill="#ff6b6b"/>
+  <text x="74" y="74" fill="#ffd166" font-family="Arial, 'Noto Sans JP', sans-serif" font-size="32" font-weight="800">MuscleLove</text>
+  <text x="74" y="342" fill="#f7f2e8" font-family="Arial, 'Noto Sans JP', sans-serif" font-size="66" font-weight="900">筋肉レップラリー</text>
+  <text x="78" y="390" fill="#b9c2cf" font-family="Arial, 'Noto Sans JP', sans-serif" font-size="28" font-weight="700">集中ゾーンでLIFT</text>
+</svg>

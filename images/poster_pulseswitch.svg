@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 540" role="img" aria-labelledby="title desc">
+  <title id="title">筋肉パルススイッチ poster</title>
+  <desc id="desc">Glowing 4x4 muscle pulse switch board.</desc>
+  <rect width="720" height="540" rx="22" fill="#11161c"/>
+  <path d="M0 417c96-44 174-52 263-23 90 29 169 25 260-22 78-40 140-44 197-13v181H0z" fill="#1b2a35"/>
+  <text x="52" y="76" fill="#ffd166" font-family="Arial, 'Noto Sans JP', sans-serif" font-size="28" font-weight="900">Muscle Pulse Switch</text>
+  <g transform="translate(56 122)" stroke="#ffffff" stroke-opacity=".16" stroke-width="3">
+    <rect x="0" y="0" width="300" height="300" rx="20" fill="#17202a"/>
+    <g transform="translate(26 26)">
+      <rect x="0" y="0" width="52" height="52" rx="10" fill="#0e141a"/>
+      <rect x="65" y="0" width="52" height="52" rx="10" fill="#9ae66e" stroke-opacity="0"/>
+      <rect x="130" y="0" width="52" height="52" rx="10" fill="#0e141a"/>
+      <rect x="195" y="0" width="52" height="52" rx="10" fill="#ffd166" stroke-opacity="0"/>
+      <rect x="0" y="65" width="52" height="52" rx="10" fill="#53d2c6" stroke-opacity="0"/>
+      <rect x="65" y="65" width="52" height="52" rx="10" fill="#0e141a"/>
+      <rect x="130" y="65" width="52" height="52" rx="10" fill="#9ae66e" stroke-opacity="0"/>
+      <rect x="195" y="65" width="52" height="52" rx="10" fill="#0e141a"/>
+      <rect x="0" y="130" width="52" height="52" rx="10" fill="#0e141a"/>
+      <rect x="65" y="130" width="52" height="52" rx="10" fill="#ffd166" stroke-opacity="0"/>
+      <rect x="130" y="130" width="52" height="52" rx="10" fill="#0e141a"/>
+      <rect x="195" y="130" width="52" height="52" rx="10" fill="#53d2c6" stroke-opacity="0"/>
+      <rect x="0" y="195" width="52" height="52" rx="10" fill="#9ae66e" stroke-opacity="0"/>
+      <rect x="65" y="195" width="52" height="52" rx="10" fill="#0e141a"/>
+      <rect x="130" y="195" width="52" height="52" rx="10" fill="#53d2c6" stroke-opacity="0"/>
+      <rect x="195" y="195" width="52" height="52" rx="10" fill="#0e141a"/>
+    </g>
+  </g>
+  <text x="402" y="216" fill="#f7f1e6" font-family="Arial, 'Noto Sans JP', sans-serif" font-size="50" font-weight="900">筋肉パルス</text>
+  <text x="402" y="278" fill="#f7f1e6" font-family="Arial, 'Noto Sans JP', sans-serif" font-size="50" font-weight="900">スイッチ</text>
+  <text x="404" y="332" fill="#b8c0c7" font-family="Arial, 'Noto Sans JP', sans-serif" font-size="23" font-weight="700">4x4反転ロジック</text>
+</svg>

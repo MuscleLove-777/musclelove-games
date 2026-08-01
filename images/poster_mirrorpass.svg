@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+  <title id="title">筋肉ミラーパス poster</title>
+  <desc id="desc">Mirror puzzle board with a glowing MuscleLove beam.</desc>
+  <rect width="640" height="360" fill="#101820"/>
+  <rect x="28" y="28" width="584" height="304" rx="22" fill="#17232d" stroke="#4b5c63" stroke-width="5"/>
+  <g transform="translate(56 58)">
+    <rect width="238" height="238" rx="18" fill="#111b23" stroke="#344854" stroke-width="4"/>
+    <g stroke="#314651" stroke-width="2.5">
+      <path d="M47.6 0v238M95.2 0v238M142.8 0v238M190.4 0v238M0 47.6h238M0 95.2h238M0 142.8h238M0 190.4h238"/>
+    </g>
+    <rect x="6" y="196" width="36" height="36" rx="8" fill="#ffd166"/>
+    <rect x="6" y="54" width="36" height="36" rx="8" fill="#ff6f59"/>
+    <rect x="101" y="196" width="36" height="36" rx="8" fill="#51d6d0"/>
+    <rect x="101" y="54" width="36" height="36" rx="8" fill="#5f8cff"/>
+    <text x="24" y="221" text-anchor="middle" fill="#101820" font-size="14" font-family="Arial, sans-serif" font-weight="900">E</text>
+    <text x="24" y="77" text-anchor="middle" fill="#101820" font-size="10" font-family="Arial, sans-serif" font-weight="900">GOAL</text>
+    <text x="119" y="228" text-anchor="middle" fill="#101820" font-size="34" font-family="Arial, sans-serif" font-weight="900">/</text>
+    <text x="119" y="86" text-anchor="middle" fill="#101820" font-size="34" font-family="Arial, sans-serif" font-weight="900">\</text>
+    <path d="M42 214h77v-124H24" fill="none" stroke="#ffd166" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g transform="translate(406 70)">
+    <circle cx="56" cy="36" r="28" fill="#ffd166"/>
+    <path d="M38 82c-38 16-62 50-66 98h48c5-26 20-42 42-50l16 62h44l16-62c22 8 37 24 42 50h48c-4-48-28-82-66-98l-40 28H78z" fill="#ff6f59"/>
+    <path d="M12 108l-50 62 32 22 48-54zM194 108l50 62-32 22-48-54z" fill="#51d6d0"/>
+  </g>
+  <text x="56" y="318" fill="#ffd166" font-family="Arial, sans-serif" font-size="20" font-weight="700">Mirror Logic Puzzle</text>
+  <text x="304" y="286" fill="#f5f3e8" font-family="Arial, sans-serif" font-size="44" font-weight="900">筋肉ミラーパス</text>
+  <text x="308" y="320" fill="#afbcc2" font-family="Arial, sans-serif" font-size="18" font-weight="700">5 stages, mirror turns, one form beam</text>
+</svg>

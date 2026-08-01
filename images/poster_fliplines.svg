@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+  <title id="title">筋肉フリップライン poster</title>
+  <desc id="desc">Teal flip tiles and a strong MuscleLove training mark.</desc>
+  <rect width="640" height="360" fill="#111418"/>
+  <rect x="28" y="28" width="584" height="304" rx="22" fill="#1b2027" stroke="#36404b" stroke-width="5"/>
+  <g transform="translate(54 62)">
+    <rect width="210" height="210" rx="18" fill="#252d35"/>
+    <g fill="#31d0aa">
+      <rect x="24" y="24" width="34" height="34" rx="7"/>
+      <rect x="68" y="24" width="34" height="34" rx="7"/>
+      <rect x="112" y="24" width="34" height="34" rx="7"/>
+      <rect x="156" y="24" width="34" height="34" rx="7"/>
+      <rect x="112" y="68" width="34" height="34" rx="7"/>
+      <rect x="112" y="112" width="34" height="34" rx="7"/>
+      <rect x="24" y="156" width="34" height="34" rx="7"/>
+      <rect x="68" y="156" width="34" height="34" rx="7"/>
+      <rect x="112" y="156" width="34" height="34" rx="7"/>
+      <rect x="156" y="156" width="34" height="34" rx="7"/>
+    </g>
+    <g fill="#313a43">
+      <rect x="24" y="68" width="34" height="34" rx="7"/>
+      <rect x="68" y="68" width="34" height="34" rx="7"/>
+      <rect x="156" y="68" width="34" height="34" rx="7"/>
+      <rect x="24" y="112" width="34" height="34" rx="7"/>
+      <rect x="68" y="112" width="34" height="34" rx="7"/>
+      <rect x="156" y="112" width="34" height="34" rx="7"/>
+    </g>
+  </g>
+  <g transform="translate(356 66)">
+    <circle cx="70" cy="48" r="34" fill="#ffd166"/>
+    <path d="M52 98c-44 16-72 54-76 106h54c5-28 20-46 44-54l18 72h52l18-72c24 8 39 26 44 54h54c-4-52-32-90-76-106l-44 30H96z" fill="#ff6b6b"/>
+    <path d="M22 128l-58 70 38 26 55-62zM218 128l58 70-38 26-55-62z" fill="#31d0aa"/>
+  </g>
+  <text x="56" y="306" fill="#ffd166" font-family="Arial, sans-serif" font-size="20" font-weight="700">Flip Puzzle</text>
+  <text x="312" y="284" fill="#f6f2e8" font-family="Arial, sans-serif" font-size="42" font-weight="900">筋肉フリップライン</text>
+  <text x="314" y="318" fill="#aeb7c2" font-family="Arial, sans-serif" font-size="18" font-weight="700">Match 3 target boards</text>
+</svg>

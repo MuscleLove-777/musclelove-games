@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360" role="img" aria-label="筋肉ジャッジスプリント">
+  <rect width="640" height="360" fill="#12151a"/>
+  <rect x="28" y="26" width="584" height="308" rx="18" fill="#1a2027" stroke="#34414c" stroke-width="3"/>
+  <rect x="68" y="67" width="504" height="56" rx="12" fill="#242b33"/>
+  <text x="320" y="105" fill="#49a7ff" font-family="Segoe UI,Arial,sans-serif" font-size="26" font-weight="800" text-anchor="middle">JUDGEMENT SPRINT</text>
+  <text x="320" y="178" fill="#ffffff" font-family="Segoe UI,Arial,sans-serif" font-size="48" font-weight="900" text-anchor="middle">筋肉ジャッジ</text>
+  <text x="320" y="238" fill="#ffffff" font-family="Segoe UI,Arial,sans-serif" font-size="48" font-weight="900" text-anchor="middle">スプリント</text>
+  <rect x="92" y="262" width="156" height="52" rx="12" fill="#3a1e22" stroke="#f25f5c" stroke-width="3"/>
+  <text x="170" y="298" fill="#ffd2d1" font-family="Segoe UI,Arial,sans-serif" font-size="28" font-weight="900" text-anchor="middle">NG</text>
+  <rect x="392" y="262" width="156" height="52" rx="12" fill="#123322" stroke="#45d483" stroke-width="3"/>
+  <text x="470" y="298" fill="#c4f7dc" font-family="Segoe UI,Arial,sans-serif" font-size="28" font-weight="900" text-anchor="middle">OK</text>
+</svg>

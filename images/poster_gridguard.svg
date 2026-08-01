@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-labelledby="title desc">
+  <title id="title">筋肉グリッドガード</title>
+  <desc id="desc">5x5 gym grid guard poster.</desc>
+  <rect width="800" height="450" fill="#101613"/>
+  <path d="M0 350c104-44 201-36 297-9 103 29 201 22 311-20 80-31 143-30 192 5v124H0z" fill="#18231d"/>
+  <g transform="translate(62 50)">
+    <rect width="332" height="332" rx="22" fill="#18211d" stroke="#ffffff" stroke-opacity=".18" stroke-width="4"/>
+    <g transform="translate(28 28)" stroke="#ffffff" stroke-opacity=".16" stroke-width="2">
+      <rect x="0" y="0" width="48" height="48" rx="10" fill="#45c7b0"/>
+      <rect x="57" y="0" width="48" height="48" rx="10" fill="#17302b"/>
+      <rect x="114" y="0" width="48" height="48" rx="10" fill="#17302b"/>
+      <rect x="171" y="0" width="48" height="48" rx="10" fill="#17302b"/>
+      <rect x="228" y="0" width="48" height="48" rx="10" fill="#ffd166"/>
+      <rect x="0" y="57" width="48" height="48" rx="10" fill="#17302b"/>
+      <rect x="57" y="57" width="48" height="48" rx="10" fill="#2a1719"/>
+      <rect x="114" y="57" width="48" height="48" rx="10" fill="#15211b"/>
+      <rect x="171" y="57" width="48" height="48" rx="10" fill="#2a1719"/>
+      <rect x="228" y="57" width="48" height="48" rx="10" fill="#17302b"/>
+      <rect x="0" y="114" width="48" height="48" rx="10" fill="#17302b"/>
+      <rect x="57" y="114" width="48" height="48" rx="10" fill="#15211b"/>
+      <rect x="114" y="114" width="48" height="48" rx="10" fill="#2a1719"/>
+      <rect x="171" y="114" width="48" height="48" rx="10" fill="#15211b"/>
+      <rect x="228" y="114" width="48" height="48" rx="10" fill="#17302b"/>
+      <rect x="0" y="171" width="48" height="48" rx="10" fill="#17302b"/>
+      <rect x="57" y="171" width="48" height="48" rx="10" fill="#17302b"/>
+      <rect x="114" y="171" width="48" height="48" rx="10" fill="#17302b"/>
+      <rect x="171" y="171" width="48" height="48" rx="10" fill="#17302b"/>
+      <rect x="228" y="171" width="48" height="48" rx="10" fill="#17302b"/>
+      <rect x="0" y="228" width="48" height="48" rx="10" fill="#45c7b0"/>
+      <rect x="57" y="228" width="48" height="48" rx="10" fill="#17302b"/>
+      <rect x="114" y="228" width="48" height="48" rx="10" fill="#17302b"/>
+      <rect x="171" y="228" width="48" height="48" rx="10" fill="#17302b"/>
+      <rect x="228" y="228" width="48" height="48" rx="10" fill="#ffd166"/>
+    </g>
+  </g>
+  <g transform="translate(440 130)">
+    <text x="0" y="0" fill="#ffd166" font-family="Arial, 'Noto Sans JP', sans-serif" font-size="28" font-weight="800">GRID DASH</text>
+    <text x="0" y="66" fill="#f5f1e8" font-family="Arial, 'Noto Sans JP', sans-serif" font-size="50" font-weight="900">筋肉グリッド</text>
+    <text x="0" y="128" fill="#f5f1e8" font-family="Arial, 'Noto Sans JP', sans-serif" font-size="50" font-weight="900">ガード</text>
+  </g>
+</svg>
