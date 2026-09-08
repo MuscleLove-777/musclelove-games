@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" role="img" aria-labelledby="title desc">
+  <title id="title">筋肉ロープスキップ</title>
+  <desc id="desc">Jump rope timing arcade poster</desc>
+  <rect width="800" height="450" rx="0" fill="#111412"/>
+  <rect x="34" y="34" width="732" height="382" rx="24" fill="#1a1d1a" stroke="#343b35" stroke-width="3"/>
+  <circle cx="520" cy="230" r="132" fill="none" stroke="#f8f4ea" stroke-opacity=".25" stroke-width="7"/>
+  <path d="M420 306 C475 336 566 336 622 305" fill="none" stroke="#35d79b" stroke-width="24" stroke-linecap="round" opacity=".78"/>
+  <line x1="520" y1="230" x2="634" y2="294" stroke="#ffd166" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="634" cy="294" r="20" fill="#ffd166"/>
+  <circle cx="520" cy="160" r="29" fill="#f0b28e"/>
+  <path d="M474 202 Q520 172 566 202 L582 278 Q520 300 458 278 Z" fill="#f25f4c"/>
+  <path d="M474 214 L405 260" stroke="#f0b28e" stroke-width="16" stroke-linecap="round"/>
+  <path d="M566 214 L635 260" stroke="#f0b28e" stroke-width="16" stroke-linecap="round"/>
+  <path d="M496 279 L478 354" stroke="#f8f4ea" stroke-width="19" stroke-linecap="round"/>
+  <path d="M544 279 L564 354" stroke="#f8f4ea" stroke-width="19" stroke-linecap="round"/>
+  <text x="70" y="112" fill="#ffd166" font-family="Arial, sans-serif" font-size="27" font-weight="800">MuscleLove</text>
+  <text x="70" y="180" fill="#f8f4ea" font-family="Arial, 'Noto Sans JP', sans-serif" font-size="55" font-weight="900">筋肉ロープ</text>
+  <text x="70" y="242" fill="#f8f4ea" font-family="Arial, 'Noto Sans JP', sans-serif" font-size="55" font-weight="900">スキップ</text>
+  <text x="70" y="336" fill="#b9c1b3" font-family="Arial, 'Noto Sans JP', sans-serif" font-size="24" font-weight="700">緑の着地点でタップ</text>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" role="img" aria-labelledby="title desc">
+  <title id="title">筋肉オービットドッジ poster</title>
+  <desc id="desc">Orbit lanes with a player marker, protein circles, and fatigue blocks.</desc>
+  <rect width="640" height="420" rx="18" fill="#101418"/>
+  <rect x="18" y="18" width="604" height="384" rx="16" fill="#1b2027" stroke="#ffffff" stroke-opacity=".13"/>
+  <circle cx="410" cy="210" r="138" fill="none" stroke="#68d391" stroke-width="12"/>
+  <circle cx="410" cy="210" r="96" fill="none" stroke="#76b8ff" stroke-width="10"/>
+  <circle cx="410" cy="210" r="58" fill="none" stroke="#f8c14a" stroke-width="8"/>
+  <circle cx="410" cy="72" r="24" fill="#f5f7f2"/>
+  <text x="410" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="900" fill="#101418">ML</text>
+  <circle cx="300" cy="292" r="18" fill="#68d391"/>
+  <rect x="520" y="280" width="34" height="34" rx="6" fill="#ff6b6b"/>
+  <text x="46" y="92" font-family="Arial, sans-serif" font-size="26" font-weight="900" fill="#f8c14a">MuscleLove</text>
+  <text x="46" y="168" font-family="Arial, sans-serif" font-size="44" font-weight="900" fill="#f5f7f2">筋肉オービット</text>
+  <text x="46" y="222" font-family="Arial, sans-serif" font-size="44" font-weight="900" fill="#f5f7f2">ドッジ</text>
+  <text x="46" y="292" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#b8c3c7">3レーン回避アーケード</text>
+</svg>

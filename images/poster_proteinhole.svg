@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-label="筋肉プロテインホール poster">
+  <rect width="600" height="600" rx="32" fill="#111719"/>
+  <path d="M0 470 C125 425 210 525 330 470 C430 425 500 398 600 435 L600 600 L0 600 Z" fill="#1b998b" opacity=".48"/>
+  <path d="M0 85 C100 44 190 106 305 74 C440 38 500 70 600 36 L600 0 L0 0 Z" fill="#ff6b57" opacity=".3"/>
+  <text x="52" y="92" fill="#ffd166" font-family="Arial, sans-serif" font-size="30" font-weight="900">MuscleLove</text>
+  <text x="52" y="150" fill="#f6f7f2" font-family="Arial, 'Noto Sans JP', sans-serif" font-size="42" font-weight="900">筋肉プロテイン</text>
+  <text x="52" y="202" fill="#f6f7f2" font-family="Arial, 'Noto Sans JP', sans-serif" font-size="42" font-weight="900">ホール</text>
+  <circle cx="300" cy="350" r="122" fill="#040505"/>
+  <circle cx="300" cy="350" r="132" fill="none" stroke="#1b998b" stroke-width="20"/>
+  <circle cx="300" cy="350" r="150" fill="none" stroke="#ffd166" stroke-width="7"/>
+  <g font-family="Arial, sans-serif" font-weight="900" text-anchor="middle">
+    <rect x="105" y="250" width="78" height="78" rx="12" fill="#8fd14f"/>
+    <text x="144" y="302" font-size="36" fill="#07100f">P</text>
+    <rect x="410" y="245" width="76" height="76" rx="12" fill="#f6f7f2"/>
+    <text x="448" y="296" font-size="34" fill="#07100f">D</text>
+    <rect x="125" y="428" width="72" height="72" rx="12" fill="#ffd166"/>
+    <text x="161" y="476" font-size="32" fill="#07100f">X</text>
+    <rect x="420" y="423" width="70" height="70" rx="12" fill="#ff6b57"/>
+    <text x="455" y="470" font-size="30" fill="#07100f">J</text>
+  </g>
+  <text x="52" y="552" fill="#dce6e2" font-family="Arial, 'Noto Sans JP', sans-serif" font-size="23" font-weight="800">吸い込む。避ける。3ステージ突破。</text>
+</svg>

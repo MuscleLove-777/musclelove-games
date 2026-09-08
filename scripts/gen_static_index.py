@@ -11,6 +11,7 @@ ML_STATIC_INDEX マーカー間に書き込む。あわせて件数表記(NN本)
 from __future__ import annotations
 
 import html
+import json
 import re
 import sys
 from pathlib import Path
@@ -96,6 +97,14 @@ def build_block(games: list[dict]) -> str:
 
 def main() -> None:
     src = HUB.read_text(encoding="utf-8")
+    catalog = HUB.parent / "catalog.json"
+    if catalog.is_file() and 'id="static-index"' in src:
+        games = json.loads(catalog.read_text(encoding="utf-8"))
+        links = "\n".join(f'<a href="{html.escape(g["url"], quote=True)}" rel="noopener noreferrer">{html.escape(g["title"])}</a>' for g in games)
+        src = re.sub(r'(<div id="static-index">).*?(</div></details>)', lambda m: m.group(1) + links + m.group(2), src, count=1, flags=re.S)
+        HUB.write_text(src, encoding="utf-8")
+        print(f"static index: {len(games)} games from catalog.json")
+        return
     games = parse_games(src)
     block = build_block(games)
 

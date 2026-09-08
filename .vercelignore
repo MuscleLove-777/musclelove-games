@@ -1,0 +1,31 @@
+
+# MuscleGeme local-data exclusion v2
+.env*
+.git/
+.vercel/
+.agents/
+.claude/
+.tmp*/
+*profile*/
+verification/
+harness/
+__pycache__/
+*.log
+*.db
+*.db-*
+*.sqlite*
+*.ods
+*.xlsx
+*.csv
+*.pptx
+*.docx
+*.zip
+*.bak
+*.md
+cookies*.json
+*storage-state*.json
+auth.json
+local-*.png
+prod-*.png
+smoke_screenshot.png
+# End MuscleGeme local-data exclusion

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" role="img" aria-labelledby="title desc">
+  <title id="title">筋肉マクロソート poster</title>
+  <desc id="desc">Macro sorting card with fuel, recover, and skip destinations.</desc>
+  <rect width="640" height="420" rx="18" fill="#18222a"/>
+  <rect x="18" y="18" width="604" height="384" rx="16" fill="#202c34" stroke="#ffffff" stroke-opacity=".13"/>
+  <text x="46" y="86" font-family="Arial, sans-serif" font-size="26" font-weight="900" fill="#f7c85f">MuscleLove</text>
+  <text x="46" y="160" font-family="Arial, sans-serif" font-size="44" font-weight="900" fill="#f7f4ea">筋肉マクロ</text>
+  <text x="46" y="214" font-family="Arial, sans-serif" font-size="44" font-weight="900" fill="#f7f4ea">ソート</text>
+  <text x="46" y="286" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#c3ccd0">45秒の3択スワイプ栄養判断</text>
+  <rect x="356" y="74" width="206" height="232" rx="18" fill="#26313a" stroke="#ffffff" stroke-opacity=".16"/>
+  <text x="459" y="124" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="900" fill="#82cfff">RECOVER</text>
+  <text x="459" y="202" text-anchor="middle" font-family="Arial, sans-serif" font-size="34" font-weight="900" fill="#f7f4ea">Stretch</text>
+  <circle cx="378" cy="348" r="26" fill="#7bd88f"/>
+  <circle cx="459" cy="348" r="26" fill="#82cfff"/>
+  <circle cx="540" cy="348" r="26" fill="#ff7a72"/>
+</svg>

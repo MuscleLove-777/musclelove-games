@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+  <title id="title">筋肉フォーカスリング poster</title>
+  <desc id="desc">Focus ring poster for MuscleLove Games.</desc>
+  <rect width="640" height="360" fill="#111313"/>
+  <rect x="22" y="22" width="596" height="316" rx="22" fill="#202524" stroke="#18b7a6" stroke-width="4"/>
+  <circle cx="178" cy="180" r="104" fill="#141918" stroke="#32413d" stroke-width="12"/>
+  <circle cx="178" cy="180" r="74" fill="none" stroke="#18b7a6" stroke-width="22" opacity="0.78"/>
+  <circle cx="178" cy="180" r="54" fill="none" stroke="#f5c84c" stroke-width="8"/>
+  <circle cx="178" cy="180" r="30" fill="#0d0f0f" stroke="#fff7ea" stroke-width="2"/>
+  <text x="178" y="188" text-anchor="middle" font-family="Arial, sans-serif" font-size="25" font-weight="900" fill="#fff7ea">52</text>
+  <text x="330" y="148" font-family="Arial, sans-serif" font-size="34" font-weight="900" fill="#fff7ea">筋肉フォーカスリング</text>
+  <text x="334" y="195" font-family="Arial, sans-serif" font-size="18" font-weight="800" fill="#f5c84c">縮むリングを狙って止める</text>
+  <rect x="334" y="228" width="170" height="46" rx="9" fill="#18b7a6"/>
+  <text x="419" y="258" text-anchor="middle" font-family="Arial, sans-serif" font-size="19" font-weight="900" fill="#0d0f0f">LOCK REP</text>
+</svg>
