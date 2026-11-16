@@ -1,5 +1,19 @@
 [
   {
+    "title": "筋肉麻雀PRO",
+    "genre": "MAHJONG 4P",
+    "url": "https://musclelove-mahjong-pro.vercel.app",
+    "img": "images/poster_mahjongpro.png",
+    "desc_ja": "CPU3人と対局する麻雀の試作。1局練習から、ツモ・打牌・リーチ・和了を画像演出付きで楽しめます。",
+    "desc_en": "A four-player mahjong prototype with three CPU opponents, a single-hand practice mode and character artwork.",
+    "id": "muscle-mahjong-pro",
+    "folder": "muscle-mahjong-pro",
+    "entry": "index.html",
+    "category": "パズル・頭脳",
+    "glyph": "▧",
+    "color": 4
+  },
+  {
     "title": "筋肉ブレスシンク",
     "genre": "Breath Timing Arcade",
     "url": "https://muscle-breath-sync.vercel.app",
@@ -1037,20 +1051,6 @@
     "color": 3
   },
   {
-    "title": "筋肉麻雀PRO",
-    "genre": "MAHJONG 4P",
-    "url": "https://musclelove-mahjong-pro.vercel.app",
-    "img": "images/poster_mahjongpro.png",
-    "desc_ja": "本格4人打ち日本麻雀！リーチ・ドラ・赤ドラ・役満対応の正統派リーチ麻雀",
-    "desc_en": "Authentic 4-player Japanese riichi mahjong! Riichi, dora, red-dora, yakuman supported!",
-    "id": "muscle-mahjong-pro",
-    "folder": "muscle-mahjong-pro",
-    "entry": "index.html",
-    "category": "パズル・頭脳",
-    "glyph": "▧",
-    "color": 4
-  },
-  {
     "title": "マッスルアングリーガール",
     "genre": "Physics Puzzle",
     "url": "https://muscle-angry-girl.vercel.app",
@@ -1525,5 +1525,61 @@
     "category": "パズル・頭脳",
     "glyph": "▧",
     "color": 3
+  },
+  {
+    "title": "筋肉数独",
+    "genre": "Sudoku Puzzle",
+    "url": "https://muscle-sudoku.vercel.app",
+    "img": "images/poster_sudoku.svg",
+    "desc_ja": "9×9マスに1〜9をひとつずつ埋めろ。縦・横・3×3ブロックすべてに同じ数字が重ならないようクリアを目指せ。",
+    "desc_en": "Fill the 9x9 grid so every row, column and 3x3 box contains the digits 1-9. Classic sudoku with muscle-girl style.",
+    "id": "muscle-sudoku",
+    "folder": "muscle-sudoku",
+    "entry": "index.html",
+    "category": "パズル・頭脳",
+    "glyph": "▧",
+    "color": 4
+  },
+  {
+    "title": "筋肉ライツアウト",
+    "genre": "Logic Puzzle",
+    "url": "https://muscle-lights-out.vercel.app",
+    "img": "images/poster_lightsout.svg",
+    "desc_ja": "5×5のライトを全部消せ。マスをタップするとそのマスと上下左右が反転。最小手数でクリアを目指す論理パズル。",
+    "desc_en": "Tap a cell to toggle it and its neighbours. Turn all 25 lights off in as few moves as possible.",
+    "id": "muscle-lights-out",
+    "folder": "muscle-lights-out",
+    "entry": "index.html",
+    "category": "パズル・頭脳",
+    "glyph": "☀",
+    "color": 2
+  },
+  {
+    "title": "筋肉フラッド",
+    "genre": "Flood Puzzle",
+    "url": "https://muscle-flood.vercel.app",
+    "img": "images/poster_flood.svg",
+    "desc_ja": "8×8グリッドを6色で染め上げろ。左上から色を選んで領域を広げ、制限手数内に全マス制覇を目指す戦略パズル。",
+    "desc_en": "Pick a colour each turn to flood-fill from your corner. Cover the entire 8×8 board within the move limit.",
+    "id": "muscle-flood",
+    "folder": "muscle-flood",
+    "entry": "index.html",
+    "category": "パズル・頭脳",
+    "glyph": "🌊",
+    "color": 1
+  },
+  {
+    "title": "筋肉ソリティア",
+    "genre": "Solitaire Card Puzzle",
+    "url": "https://muscle-solitaire.vercel.app",
+    "img": "images/poster_solitaire.svg",
+    "desc_ja": "52枚のカードを4組のスーツ別にエースからキングまで積み上げる、クロンダイク形式の本格ソリティア",
+    "desc_en": "Stack 52 cards by suit from Ace to King in this classic Klondike solitaire puzzle!",
+    "id": "muscle-solitaire",
+    "folder": "muscle-solitaire",
+    "entry": "index.html",
+    "category": "パズル・頭脳",
+    "glyph": "▧",
+    "color": 2
   }
 ]
