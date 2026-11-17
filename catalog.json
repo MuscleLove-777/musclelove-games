@@ -1581,5 +1581,19 @@
     "category": "パズル・頭脳",
     "glyph": "▧",
     "color": 2
+  },
+  {
+    "title": "筋肉フロッグ",
+    "genre": "Arcade Crossing",
+    "url": "https://muscle-frog.vercel.app",
+    "img": "images/poster_frog.svg",
+    "desc_ja": "ダンベルやバーベルが行き交うレーンを避けながらジムへ到達する、フロッガー風アーケードゲーム",
+    "desc_en": "Dodge dumbbells and barbells across busy lanes to reach the gym in this Frogger-style arcade game!",
+    "id": "muscle-frog",
+    "folder": "muscle-frog",
+    "entry": "index.html",
+    "category": "アクション",
+    "glyph": "↗",
+    "color": 3
   }
 ]
