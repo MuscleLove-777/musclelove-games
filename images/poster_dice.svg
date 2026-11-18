@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#1a1a2e"/>
+  <!-- Dice 1 -->
+  <rect x="60" y="90" width="70" height="70" rx="10" fill="#0f3460" stroke="#e63946" stroke-width="2"/>
+  <circle cx="82" cy="112" r="5" fill="#eee"/><circle cx="108" cy="112" r="5" fill="#eee"/>
+  <circle cx="82" cy="138" r="5" fill="#eee"/><circle cx="108" cy="138" r="5" fill="#eee"/>
+  <circle cx="95" cy="125" r="5" fill="#eee"/>
+  <!-- Dice 2 -->
+  <rect x="165" y="80" width="70" height="70" rx="10" fill="#0f3460" stroke="#e63946" stroke-width="2"/>
+  <circle cx="187" cy="102" r="5" fill="#eee"/><circle cx="213" cy="102" r="5" fill="#eee"/>
+  <circle cx="200" cy="115" r="5" fill="#eee"/>
+  <circle cx="187" cy="128" r="5" fill="#eee"/><circle cx="213" cy="128" r="5" fill="#eee"/>
+  <circle cx="200" cy="141" r="5" fill="#eee"/>
+  <!-- Dice 3 -->
+  <rect x="270" y="90" width="70" height="70" rx="10" fill="#0f3460" stroke="#e63946" stroke-width="2"/>
+  <circle cx="292" cy="112" r="5" fill="#eee"/><circle cx="318" cy="112" r="5" fill="#eee"/>
+  <circle cx="292" cy="138" r="5" fill="#eee"/><circle cx="318" cy="138" r="5" fill="#eee"/>
+  <!-- Flexed bicep icon -->
+  <text x="200" y="220" text-anchor="middle" font-size="48" fill="#e63946" font-family="Apple Color Emoji, Segoe UI Emoji, sans-serif">&#x1F4AA;</text>
+  <!-- Title -->
+  <text x="200" y="260" text-anchor="middle" font-size="22" fill="#eee" font-weight="bold" font-family="system-ui, sans-serif">筋肉ダイス</text>
+  <text x="200" y="284" text-anchor="middle" font-size="14" fill="#aaa" font-family="system-ui, sans-serif" letter-spacing="3">MUSCLE DICE</text>
+</svg>
