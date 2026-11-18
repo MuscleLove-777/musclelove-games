@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <rect width="400" height="400" fill="#10221a"/>
+  <rect x="10" y="10" width="380" height="380" rx="16" fill="#183425" stroke="#53f0a2" stroke-width="2"/>
+  <!-- 4x4 color sample centered -->
+  <g transform="translate(75,50)">
+    <rect x="0" y="0" width="52" height="52" rx="6" fill="#E74C3C"/>
+    <rect x="60" y="0" width="52" height="52" rx="6" fill="#3498DB"/>
+    <rect x="120" y="0" width="52" height="52" rx="6" fill="#2ECC71"/>
+    <rect x="180" y="0" width="52" height="52" rx="6" fill="#F39C12"/>
+    <rect x="0" y="60" width="52" height="52" rx="6" fill="#9B59B6"/>
+    <rect x="60" y="60" width="52" height="52" rx="6" fill="#1ABC9C"/>
+    <rect x="120" y="60" width="52" height="52" rx="6" fill="#E74C3C"/>
+    <rect x="180" y="60" width="52" height="52" rx="6" fill="#3498DB"/>
+    <rect x="0" y="120" width="52" height="52" rx="6" fill="#2ECC71"/>
+    <rect x="60" y="120" width="52" height="52" rx="6" fill="#F39C12"/>
+    <rect x="120" y="120" width="52" height="52" rx="6" fill="#9B59B6"/>
+    <rect x="180" y="120" width="52" height="52" rx="6" fill="#1ABC9C"/>
+    <rect x="0" y="180" width="52" height="52" rx="6" fill="#E74C3C" stroke="#fff" stroke-width="2"/>
+    <rect x="60" y="180" width="52" height="52" rx="6" fill="#E74C3C" stroke="#fff" stroke-width="2"/>
+    <rect x="120" y="180" width="52" height="52" rx="6" fill="#3498DB"/>
+    <rect x="180" y="180" width="52" height="52" rx="6" fill="#2ECC71"/>
+  </g>
+  <text x="200" y="330" text-anchor="middle" font-family="system-ui,sans-serif" font-size="32" font-weight="700" fill="#53f0a2">筋肉フラッド</text>
+  <text x="200" y="355" text-anchor="middle" font-family="system-ui,sans-serif" font-size="16" fill="#bdd2c5">MUSCLE FLOOD</text>
+  <text x="200" y="380" text-anchor="middle" font-family="system-ui,sans-serif" font-size="14" fill="#53f0a2">MUSCLELOVE GAMES</text>
+</svg>

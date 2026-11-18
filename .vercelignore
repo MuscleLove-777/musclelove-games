@@ -8,6 +8,7 @@
 .tmp*/
 *profile*/
 verification/
+90_旧版/
 harness/
 __pycache__/
 *.log

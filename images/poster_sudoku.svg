@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#10221a"/>
+      <stop offset="100%" stop-color="#183425"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg)" rx="8"/>
+  <!-- Mini grid -->
+  <g stroke="#53f0a2" stroke-opacity="0.5" stroke-width="1">
+    <rect x="20" y="40" width="160" height="160" fill="none" stroke-opacity="0.8" stroke-width="2"/>
+    <line x1="73" y1="40" x2="73" y2="200"/>
+    <line x1="127" y1="40" x2="127" y2="200"/>
+    <line x1="20" y1="93" x2="180" y2="93"/>
+    <line x1="20" y1="147" x2="180" y2="147"/>
+  </g>
+  <g font-family="system-ui, sans-serif" font-size="16" font-weight="700" fill="#53f0a2">
+    <text x="47" y="75" text-anchor="middle">5</text>
+    <text x="100" y="75" text-anchor="middle">3</text>
+    <text x="47" y="128" text-anchor="middle">8</text>
+    <text x="154" y="128" text-anchor="middle">1</text>
+    <text x="154" y="182" text-anchor="middle">2</text>
+    <text x="47" y="235" text-anchor="middle">9</text>
+  </g>
+  <!-- Title area -->
+  <text x="210" y="110" font-family="system-ui, sans-serif" font-size="32" font-weight="900" fill="#f4fff8" text-anchor="middle">筋肉</text>
+  <text x="210" y="148" font-family="system-ui, sans-serif" font-size="32" font-weight="900" fill="#f4fff8" text-anchor="middle">数独</text>
+  <text x="210" y="175" font-family="system-ui, sans-serif" font-size="13" fill="#53f0a2" text-anchor="middle">MUSCLE SUDOKU</text>
+  <text x="210" y="200" font-family="system-ui, sans-serif" font-size="11" fill="#bdd2c5" text-anchor="middle">MuscleLove Games</text>
+  <rect x="160" y="216" width="100" height="2" rx="1" fill="#53f0a2"/>
+</svg>

@@ -2,13 +2,17 @@
 (() => {
   const $ = id => document.getElementById(id);
   const STORE = 'musclegeme-v2';
-  const poseArtwork = ['emerald','crimson','platinum'].map(name => `images/pose-${name}-v3.png`);
+  const poseArtwork = ['images/pose-emerald-slim-v5.png', 'images/pose-crimson-asian-v6.png', 'images/pose-platinum-asian-v6.png'];
   document.querySelectorAll('[data-pose]').forEach(button => button.addEventListener('click', () => {
     const index = Number(button.dataset.pose);
     if (!Number.isInteger(index) || !poseArtwork[index]) return;
     $('hero-character').src = poseArtwork[index];
     $('studio-character').src = poseArtwork[index];
-    $('hero-character').alt = ['ダブルバイセップスポーズの成人女性','ラットスプレッドポーズの成人女性','サイドチェストポーズの成人女性'][index];
+    const description = ['汗をまといダブルバイセップスポーズを決める架空の成人女性','汗をまといラットスプレッドポーズを決める架空の成人女性','汗をまといサイドチェストポーズを決める架空の成人女性'][index];
+    $('hero-character').alt = description;
+    $('studio-character').alt = description;
+    document.querySelector('.art-note').textContent = `POWER COLLECTION / ${String(index + 1).padStart(2, '0')}`;
+    document.querySelector('.hero-footer span').textContent = `${String(index + 1).padStart(2, '0')} / STRENGTH & PRESENCE`;
     document.querySelectorAll('[data-pose]').forEach(b => b.setAttribute('aria-pressed', String(b === button)));
   }));
   const catalog = Object.freeze(window.ML_CATALOG || []);
@@ -62,7 +66,7 @@
     $('empty').hidden = matches.length !== 0; $('more').hidden = matches.length <= visible;
     for (const g of matches.slice(0, visible)) {
       const card = node('article', undefined, 'catalog-card'); const a = node('a'); a.href = destination(g);
-      const art = node('div', undefined, 'catalog-thumb'); const portrait = node('img'); portrait.src = poseArtwork[(Number(g.color) || 0) % poseArtwork.length]; portrait.alt = ''; portrait.loading = 'lazy'; portrait.width = 1536; portrait.height = 1024; art.append(portrait); art.dataset.color = String(g.color); art.setAttribute('aria-hidden', 'true');
+      const art = node('div', undefined, 'catalog-thumb'); const portrait = node('img'); portrait.src = g.id === 'muscle-mahjong-pro' ? 'images/mahjong-real.png' : poseArtwork[(Number(g.color) || 0) % poseArtwork.length]; portrait.alt = ''; portrait.loading = 'lazy'; portrait.width = 1536; portrait.height = 1024; art.append(portrait); art.dataset.color = String(g.color); art.setAttribute('aria-hidden', 'true');
       const body = node('div', undefined, 'catalog-body'); body.append(node('small', g.category), node('h3', g.title), node('p', g.desc_ja)); a.append(art, body);
       const favorite = node('button', state.favorites.has(g.id) ? '♥' : '♡', 'favorite');
       favorite.setAttribute('aria-label', `${g.title}をお気に入り${state.favorites.has(g.id) ? 'から外す' : 'に追加'}`);

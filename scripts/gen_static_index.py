@@ -102,6 +102,15 @@ def main() -> None:
         games = json.loads(catalog.read_text(encoding="utf-8"))
         links = "\n".join(f'<a href="{html.escape(g["url"], quote=True)}" rel="noopener noreferrer">{html.escape(g["title"])}</a>' for g in games)
         src = re.sub(r'(<div id="static-index">).*?(</div></details>)', lambda m: m.group(1) + links + m.group(2), src, count=1, flags=re.S)
+        # 件数表記（meta description 等の「NNN作品」）を実数に揃える。毎日1本増えるので放置すると必ずズレる。
+        src = re.sub(r"\d+作品のゲームライブラリ", f"{len(games)}作品のゲームライブラリ", src)
+        # canonical: 現行レイアウトは style.css を読まないため、旧実装の挿入位置では入らなかった。
+        if 'rel="canonical"' not in src:
+            src = src.replace(
+                "<title>",
+                '<link rel="canonical" href="https://musclelove-games.vercel.app/">\n<title>',
+                1,
+            )
         HUB.write_text(src, encoding="utf-8")
         print(f"static index: {len(games)} games from catalog.json")
         return

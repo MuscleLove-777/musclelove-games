@@ -14,3 +14,16 @@ service_account*.json
 *.cookie
 *_cookies.json
 cookies.txt
+
+# --- publish hygiene (2026-11-18) ---
+# Old-version archive: local history only, never part of the public site.
+90_旧版/
+# Source art that no page references (the site uses emerald-slim-v5 / crimson-asian-v6 / platinum-asian-v6).
+images/pose-*-sweat-v4.*
+images/pose-crimson-slim-v5.png
+images/pose-platinum-slim-v5.png
+# JPEG/WebP cannot be inspected by the commit guard; ship PNG instead (see images/mahjong-real.png).
+images/mahjong-real.jpg
+# Working notes generated next to the site; the canonical copies live one level up.
+utm_links.md
+x_post_templates.md
