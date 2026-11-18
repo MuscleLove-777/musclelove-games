@@ -1595,5 +1595,19 @@
     "category": "アクション",
     "glyph": "↗",
     "color": 3
+  },
+  {
+    "title": "筋肉ダイス",
+    "genre": "Dice Strategy",
+    "url": "https://muscle-dice.vercel.app",
+    "img": "images/poster_dice.svg",
+    "desc_ja": "5つのダイスを最大3回振り、コンボを狙ってスコアを重ねるヤッツィー系ダイスゲーム",
+    "desc_en": "Roll five dice up to three times per turn and score combos in this Yahtzee-style dice strategy game.",
+    "id": "muscle-dice",
+    "folder": "muscle-dice",
+    "entry": "index.html",
+    "category": "パズル・頭脳",
+    "glyph": "⚄",
+    "color": 1
   }
 ]
