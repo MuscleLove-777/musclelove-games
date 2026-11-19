@@ -1609,5 +1609,19 @@
     "category": "パズル・頭脳",
     "glyph": "⚄",
     "color": 1
+  },
+  {
+    "title": "筋肉フロー",
+    "genre": "Flow Puzzle",
+    "url": "https://muscle-flow.vercel.app",
+    "img": "images/poster_flow.svg",
+    "desc_ja": "同じ色のドットを線でつなぎ全マスを埋めるフロー系パズルゲーム。3難易度・タイムアタック",
+    "desc_en": "Connect matching dots with paths to fill every cell on the grid. Three difficulty levels, time attack!",
+    "id": "muscle-flow",
+    "folder": "muscle-flow",
+    "entry": "index.html",
+    "category": "パズル・頭脳",
+    "glyph": "〜",
+    "color": 0
   }
 ]
