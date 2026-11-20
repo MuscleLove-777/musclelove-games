@@ -1623,5 +1623,19 @@
     "category": "パズル・頭脳",
     "glyph": "〜",
     "color": 0
+  },
+  {
+    "title": "筋肉重力反転",
+    "genre": "Gravity Runner",
+    "url": "https://muscle-gravity.vercel.app",
+    "img": "images/poster_gravity.svg",
+    "desc_ja": "重力を反転させて障害物の隙間をくぐり抜けるエンドレスランナー。タップ1つで空と地面を切り替えよう",
+    "desc_en": "Flip gravity to dodge obstacles in this endless runner. One tap switches between floor and ceiling!",
+    "id": "muscle-gravity",
+    "folder": "muscle-gravity",
+    "entry": "index.html",
+    "category": "アクション",
+    "glyph": "↕",
+    "color": 1
   }
 ]
