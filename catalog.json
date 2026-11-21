@@ -1637,5 +1637,19 @@
     "category": "アクション",
     "glyph": "↕",
     "color": 1
+  },
+  {
+    "title": "筋肉ドロップフィット",
+    "genre": "Drop Puzzle",
+    "url": "https://muscle-drop-fit.vercel.app/",
+    "img": "images/poster_dropfit.svg",
+    "desc_ja": "筋トレブロックを回転・移動して横一列を揃えて消せ！落ち物パズルで限界突破",
+    "desc_en": "Rotate and move gym-themed blocks to clear full rows. A drop puzzle for ultimate muscle training!",
+    "id": "muscle-drop-fit",
+    "folder": "muscle-drop-fit",
+    "entry": "index.html",
+    "category": "パズル・頭脳",
+    "glyph": "▼",
+    "color": 2
   }
 ]
