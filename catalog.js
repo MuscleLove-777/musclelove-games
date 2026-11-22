@@ -1652,5 +1652,19 @@ window.ML_CATALOG = [
     "category": "パズル・頭脳",
     "glyph": "▼",
     "color": 2
+  },
+  {
+    "title": "筋肉ウォーターソート",
+    "genre": "Sort Puzzle",
+    "url": "https://muscle-water-sort.vercel.app/",
+    "img": "images/poster_watersort.svg",
+    "desc_ja": "プロテインシェイクを色別に仕分けるパズル。チューブをタップして同色を揃えよう！全6フレーバー",
+    "desc_en": "Sort protein shake flavors by tapping tubes to pour. Match colors to solve the puzzle!",
+    "id": "muscle-water-sort",
+    "folder": "muscle-water-sort",
+    "entry": "index.html",
+    "category": "パズル・頭脳",
+    "glyph": "🧪",
+    "color": 3
   }
 ];

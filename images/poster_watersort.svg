@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200" width="300" height="200">
+  <rect width="300" height="200" rx="12" fill="#0f172a"/>
+  <text x="150" y="30" text-anchor="middle" fill="#f1f5f9" font-family="system-ui,sans-serif" font-size="14" font-weight="700">MUSCLE WATER SORT</text>
+  <!-- Tube 1: Strawberry -->
+  <rect x="20" y="50" width="36" height="120" rx="6" fill="none" stroke="#475569" stroke-width="2"/>
+  <rect x="23" y="140" width="30" height="27" rx="3" fill="#E74C3C"/>
+  <rect x="23" y="112" width="30" height="27" rx="2" fill="#E67E22"/>
+  <rect x="23" y="84" width="30" height="27" rx="2" fill="#F1C40F"/>
+  <rect x="23" y="56" width="30" height="27" rx="2" fill="#2ECC71"/>
+  <!-- Tube 2: Mango -->
+  <rect x="68" y="50" width="36" height="120" rx="6" fill="none" stroke="#475569" stroke-width="2"/>
+  <rect x="71" y="140" width="30" height="27" rx="3" fill="#3498DB"/>
+  <rect x="71" y="112" width="30" height="27" rx="2" fill="#9B59B6"/>
+  <rect x="71" y="84" width="30" height="27" rx="2" fill="#E74C3C"/>
+  <rect x="71" y="56" width="30" height="27" rx="2" fill="#E67E22"/>
+  <!-- Tube 3: Banana -->
+  <rect x="116" y="50" width="36" height="120" rx="6" fill="none" stroke="#475569" stroke-width="2"/>
+  <rect x="119" y="140" width="30" height="27" rx="3" fill="#F1C40F"/>
+  <rect x="119" y="112" width="30" height="27" rx="2" fill="#2ECC71"/>
+  <rect x="119" y="84" width="30" height="27" rx="2" fill="#3498DB"/>
+  <rect x="119" y="56" width="30" height="27" rx="2" fill="#9B59B6"/>
+  <!-- Tube 4: Mixed -->
+  <rect x="164" y="50" width="36" height="120" rx="6" fill="none" stroke="#475569" stroke-width="2"/>
+  <rect x="167" y="140" width="30" height="27" rx="3" fill="#2ECC71"/>
+  <rect x="167" y="112" width="30" height="27" rx="2" fill="#E74C3C"/>
+  <rect x="167" y="84" width="30" height="27" rx="2" fill="#9B59B6"/>
+  <rect x="167" y="56" width="30" height="27" rx="2" fill="#F1C40F"/>
+  <!-- Tube 5: Mixed -->
+  <rect x="212" y="50" width="36" height="120" rx="6" fill="none" stroke="#475569" stroke-width="2"/>
+  <rect x="215" y="140" width="30" height="27" rx="3" fill="#E67E22"/>
+  <rect x="215" y="112" width="30" height="27" rx="2" fill="#3498DB"/>
+  <rect x="215" y="84" width="30" height="27" rx="2" fill="#E67E22"/>
+  <rect x="215" y="56" width="30" height="27" rx="2" fill="#E74C3C"/>
+  <!-- Tube 6: Empty -->
+  <rect x="260" y="50" width="36" height="120" rx="6" fill="none" stroke="#475569" stroke-width="2"/>
+  <text x="150" y="190" text-anchor="middle" fill="#94a3b8" font-family="system-ui,sans-serif" font-size="11">Sort the Protein Shake Flavors!</text>
+</svg>
