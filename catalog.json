@@ -1665,5 +1665,19 @@
     "category": "パズル・頭脳",
     "glyph": "🧪",
     "color": 3
+  },
+  {
+    "title": "筋肉タイルラッシュ",
+    "genre": "Slide Puzzle",
+    "url": "https://muscle-tile-rush.vercel.app/",
+    "img": "images/poster_tilerush.svg",
+    "desc_ja": "スライドパズルで数字を並べ替えろ！3x3/4x4/5x5の3段階。最少手数を目指せ",
+    "desc_en": "Slide numbered tiles to solve the puzzle! 3 difficulty levels. Aim for the fewest moves!",
+    "id": "muscle-tile-rush",
+    "folder": "muscle-tile-rush",
+    "entry": "index.html",
+    "category": "パズル・頭脳",
+    "glyph": "🧩",
+    "color": 1
   }
 ]
