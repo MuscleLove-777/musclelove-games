@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 450" role="img" aria-labelledby="title desc">
+  <title id="title">プレート引っ越し</title>
+  <desc id="desc">3本のラックと色付きウェイトプレート。黄色のプレートを右端へ運ぶ。</desc>
+  <rect width="720" height="450" rx="22" fill="#f6f2e6"/>
+  <text x="42" y="76" fill="#25392f" font-family="system-ui,sans-serif" font-weight="800" font-size="48">プレート引っ越し</text>
+  <rect x="32" y="110" width="656" height="306" rx="16" fill="#20362c"/>
+  <path d="M48 165h624M48 212h624M48 259h624M48 306h624" stroke="#30473a" fill="none"/>
+  <path d="M156 203v139m202-139v139m202-139v139" fill="none" stroke="#b0baa0" stroke-width="12" stroke-linecap="round"/>
+  <path d="M70 345h171m31 0h172m30 0h172" stroke="#d7d9ba" stroke-width="10" stroke-linecap="round"/>
+  <g stroke="#192b23" stroke-width="4">
+    <rect x="76" y="312" width="160" height="28" rx="8" fill="#8dd8bc"/>
+    <rect x="95" y="283" width="122" height="28" rx="8" fill="#f49766"/>
+    <rect x="114" y="254" width="84" height="28" rx="8" fill="#ffd478"/>
+  </g>
+  <path d="M185 229q170-154 348-20" stroke="#ffd478" stroke-width="5" fill="none" stroke-dasharray="10 8"/>
+  <path d="m521 190 17 24-29-2" fill="none" stroke="#ffd478" stroke-linejoin="round" stroke-width="6"/>
+  <g text-anchor="middle" fill="#f6f2e6" font-family="sans-serif" font-weight="bold" font-size="27">
+    <text x="156" y="388">A</text><text x="358" y="388">B</text><text x="560" y="388">C</text>
+  </g>
+</svg>

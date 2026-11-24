@@ -1680,5 +1680,19 @@ window.ML_CATALOG = [
     "category": "パズル・頭脳",
     "glyph": "🧩",
     "color": 1
+  },
+  {
+    "title": "プレート引っ越し",
+    "genre": "Rack Puzzle",
+    "url": "https://muscle-plate-transfer.vercel.app/",
+    "img": "images/poster_plate_transfer.svg",
+    "desc_ja": "3本のラックを使い、右端へウェイトプレートを運ぼう。3枚なら最短7手。4枚・5枚にも挑戦できます。",
+    "desc_en": "Move every weight plate to the right rack. Solve three plates in seven moves, then try four or five.",
+    "id": "muscle-plate-transfer",
+    "folder": "muscle-plate-transfer",
+    "entry": "index.html",
+    "category": "パズル・頭脳",
+    "glyph": "🏋️",
+    "color": 2
   }
 ];
