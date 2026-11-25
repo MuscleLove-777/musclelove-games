@@ -1693,5 +1693,19 @@
     "category": "パズル・頭脳",
     "glyph": "🏋️",
     "color": 2
+  },
+  {
+    "title": "プレート計量室",
+    "genre": "Weight Puzzle",
+    "url": "https://muscle-load-order.vercel.app/",
+    "img": "images/poster_load_order.svg",
+    "desc_ja": "注文票に書かれた枚数と重さを満たすプレートを選ぼう。全5件で一発合格を目指す計量パズル。",
+    "desc_en": "Pick the exact number of plates to match each weight ticket. Fill five orders and aim for a perfect first weigh-in.",
+    "id": "muscle-load-order",
+    "folder": "muscle-load-order",
+    "entry": "index.html",
+    "category": "パズル・頭脳",
+    "glyph": "⚖️",
+    "color": 3
   }
 ]
