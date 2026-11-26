@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="t"><title id="t">ロッカー暗号部</title>
+<rect width="640" height="360" fill="#e4ecdf"/><rect x="45" y="30" width="550" height="300" rx="16" fill="#245f52" stroke="#173d35" stroke-width="6"/>
+<path d="M481 52h76m-76 10h76m-76 10h76" stroke="#173d35" stroke-width="5"/>
+<text x="82" y="85" fill="#faf5d9" font-family="sans-serif" font-weight="bold" font-size="34">ロッカー暗号部</text>
+<rect x="81" y="106" width="478" height="98" rx="6" fill="#112d29" stroke="#8aa58a" stroke-width="3"/>
+<text x="320" y="179" text-anchor="middle" font-family="monospace" fill="#d3fca8" font-weight="bold" font-size="68" letter-spacing="17">3 ? 5</text>
+<g fill="#faf5d9"><rect x="81" y="232" width="80" height="59" rx="6"/><rect x="181" y="232" width="80" height="59" rx="6"/><rect x="281" y="232" width="80" height="59" rx="6"/><rect x="381" y="232" width="80" height="59" rx="6"/><rect x="481" y="232" width="80" height="59" rx="6"/></g>
+<g font-family="monospace" text-anchor="middle" font-size="35" font-weight="bold" fill="#173d35"><text x="121" y="274">1</text><text x="221" y="274">2</text><text x="321" y="274">3</text><text x="421" y="274">4</text><text x="521" y="274">5</text></g></svg>

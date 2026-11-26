@@ -1707,5 +1707,19 @@
     "category": "パズル・頭脳",
     "glyph": "⚖️",
     "color": 3
+  },
+  {
+    "title": "ロッカー暗号部",
+    "genre": "Code Deduction",
+    "url": "https://muscle-locker-code.vercel.app/",
+    "img": "images/poster_locker_code.svg",
+    "desc_ja": "ジムのロッカーを6手以内に解錠。数字と位置のヒントから、異なる3桁の暗証番号を推理しよう。",
+    "desc_en": "Crack a three-digit locker code in six guesses using clues about correct digits and their positions.",
+    "id": "muscle-locker-code",
+    "folder": "muscle-locker-code",
+    "entry": "index.html",
+    "category": "パズル・頭脳",
+    "glyph": "🔐",
+    "color": 2
   }
 ]
