@@ -1721,5 +1721,19 @@
     "category": "パズル・頭脳",
     "glyph": "🔐",
     "color": 2
+  },
+  {
+    "title": "ロッカー見晴らし図",
+    "genre": "Visibility Puzzle",
+    "url": "https://muscle-locker-skyline.vercel.app/",
+    "img": "images/poster_locker_skyline.svg",
+    "desc_ja": "外から見えるロッカーの数を頼りに、高さ1〜3を各行・各列に並べよう。3×3の推理パズル全4問。",
+    "desc_en": "Use the number of lockers visible from each side to place heights 1, 2 and 3 in every row and column. Solve four 3-by-3 puzzles.",
+    "id": "muscle-locker-skyline",
+    "folder": "muscle-locker-skyline",
+    "entry": "index.html",
+    "category": "パズル・頭脳",
+    "glyph": "🏙️",
+    "color": 2
   }
 ]
